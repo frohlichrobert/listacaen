@@ -192,30 +192,39 @@
       input.setAttribute("aria-expanded", show ? "true" : "false");
       live.textContent = q ? total + " rezultate" : "";
       if (!show) { out.innerHTML = ""; return; }
-      var wrap = variant === "compact"
-        ? "absolute z-40 mt-2 w-full overflow-hidden rounded-2xl bg-card shadow-[0_12px_32px_rgba(18,56,36,0.14),0_0_0_1px_rgba(18,56,36,0.08)]"
-        : "mt-3 overflow-hidden rounded-2xl bg-card shadow-[0_12px_32px_rgba(18,56,36,0.14),0_0_0_1px_rgba(18,56,36,0.08)]";
-      var html = '<div class="' + wrap + '">';
+      var html = '<div class="lc-results' + (variant === "compact" ? " lc-abs" : "") + '">';
       if (!hits.length) {
-        html += '<p class="px-4 py-3 text-sm text-muted">Niciun cod pentru „' + esc(q) + "”.</p>";
+        html += '<p class="lc-empty">Niciun cod pentru „' + esc(q) + "”. Încearcă alt cuvânt sau doar cifrele codului.</p>";
       } else {
         html += '<ul id="' + input.id + '-results" role="listbox" class="py-1">';
         hits.forEach(function (h, i) {
-          html += '<li role="presentation"><button id="' + input.id + "-" + esc(h.key) + '" type="button" role="option" data-i="' + i + '" aria-selected="' + (i === active) +
-            '" class="grid w-full grid-cols-[3.4rem_minmax(0,1fr)] items-baseline gap-x-3 px-4 py-3 text-left ' + (i === active ? "bg-hover" : "") + '">' +
-            '<span class="text-[15px] font-medium tabular-nums text-code">' + esc(h.code) + "</span>" +
-            '<span class="min-w-0"><span class="block leading-snug">' + esc(h.name) + '</span><span class="mt-0.5 block text-sm text-muted">' + esc(h.ctx) + "</span></span></button></li>";
+          var old = h.key.indexOf("rev2-") === 0;
+          html += '<li role="presentation"><button id="' + input.id + "-" + esc(h.key) + '" type="button" role="option" data-i="' + i + '" aria-selected="' + (i === active) + '" class="lc-hit">' +
+            '<span class="lc-hit-code">' + esc(h.code) + "</span>" +
+            '<span class="min-w-0"><span class="lc-hit-name">' + esc(h.name) + "</span>" +
+            '<span class="lc-hit-ctx">' + (old ? '<span class="lc-badge">Rev. 2</span>' : "") + esc(old ? "Cod vechi · vezi echivalentul în Rev. 3" : h.ctx) + "</span></span></button></li>";
         });
         html += "</ul>";
       }
       if (total > hits.length) {
-        html += '<p class="border-t border-line px-4 py-2 text-sm text-muted">' + hits.length + " din " + total + " rezultate. Îngustează căutarea.</p>";
+        html += '<p class="lc-note">' + hits.length + " din " + total + " rezultate. Îngustează căutarea.</p>";
       }
       out.innerHTML = html + "</div>";
       out.querySelectorAll("[data-i]").forEach(function (b) {
-        b.addEventListener("mouseenter", function () { active = +b.getAttribute("data-i"); render(); });
+        // Nu rescriem lista la hover: butonul s-ar schimba între apăsare și eliberare
+        // și browserul nu ar mai trimite click-ul.
+        b.addEventListener("mouseenter", function () { setActive(+b.getAttribute("data-i"), false); });
         b.addEventListener("click", function () { go(hits[+b.getAttribute("data-i")]); });
       });
+    }
+
+    function setActive(i, scroll) {
+      active = i;
+      var opts = out.querySelectorAll("[data-i]");
+      opts.forEach(function (b) {
+        b.setAttribute("aria-selected", +b.getAttribute("data-i") === i ? "true" : "false");
+      });
+      if (scroll && opts[i]) opts[i].scrollIntoView({ block: "nearest" });
     }
 
     function update() {
@@ -225,8 +234,8 @@
     input.addEventListener("input", function () { open = true; update(); });
     input.addEventListener("focus", function () { open = true; load().then(function () { compute(); render(); }); });
     input.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowDown") { e.preventDefault(); open = true; active = Math.min(active + 1, Math.max(hits.length - 1, 0)); render(); }
-      else if (e.key === "ArrowUp") { e.preventDefault(); active = Math.max(active - 1, 0); render(); }
+      if (e.key === "ArrowDown") { e.preventDefault(); if (!open) { open = true; render(); } setActive(Math.min(active + 1, Math.max(hits.length - 1, 0)), true); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); setActive(Math.max(active - 1, 0), true); }
       else if (e.key === "Escape") { open = false; render(); }
       else if (e.key === "Enter" && hits[active]) { e.preventDefault(); go(hits[active]); }
     });
@@ -245,4 +254,13 @@
   }
 
   document.querySelectorAll("[data-search]").forEach(initSearch);
+
+  // scurtătură: "/" mută cursorul în căutare
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
+    var t = document.activeElement && document.activeElement.tagName;
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(t)) return;
+    var box = document.querySelector('[data-search="hero"] input') || document.querySelector("[data-search] input");
+    if (box) { e.preventDefault(); box.focus(); }
+  });
 })();

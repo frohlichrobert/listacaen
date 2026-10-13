@@ -15,7 +15,7 @@ function json_ld(array $data): string
     return '<script type="application/ld+json">' . str_replace('<', '<', $json) . '</script>';
 }
 
-const CARD = 'shadow-[0_1px_2px_rgba(18,56,36,0.06),0_0_0_1px_rgba(18,56,36,0.08)]';
+const CARD = 'lc-card';
 const LINK = 'underline decoration-line underline-offset-2 hover:text-accent';
 
 /**
@@ -34,7 +34,7 @@ function layout(array $p, string $body): string
     ob_start(); ?>
 <!DOCTYPE html>
 <html lang="ro" class="h-full"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/site.css?v=<?= h(LASTMOD) ?>">
+<link rel="stylesheet" href="/assets/site.css?v=<?= h(ASSET_V) ?>"><link rel="stylesheet" href="/assets/extra.css?v=<?= h(ASSET_V) ?>">
 <meta name="theme-color" content="#d7ebe0">
 <title><?= h($title) ?></title>
 <meta name="description" content="<?= h($desc) ?>">
@@ -51,7 +51,7 @@ function layout(array $p, string $body): string
 <meta property="og:image" content="<?= h($img) ?>"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:type" content="<?= h($type) ?>">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="<?= h($title) ?>"><meta name="twitter:description" content="<?= h($desc) ?>"><meta name="twitter:image" content="<?= h($img) ?>">
-<link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon"><link rel="icon" href="/assets/icon.svg" sizes="any" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico?v=<?= h(LASTMOD) ?>" sizes="48x48" type="image/x-icon"><link rel="icon" href="/assets/icon.svg?v=<?= h(LASTMOD) ?>" sizes="any" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=<?= h(LASTMOD) ?>">
 <?php foreach ($p['ld'] ?? [] as $ld) { echo json_ld($ld), "\n"; } ?>
 </head>
 <body class="flex min-h-full flex-col font-sans">
@@ -62,7 +62,7 @@ function layout(array $p, string $body): string
 </div></main>
 <?= site_footer() ?>
 <div id="consent-root"></div>
-<script src="/assets/app.js?v=<?= h(LASTMOD) ?>" defer></script>
+<script src="/assets/app.js?v=<?= h(ASSET_V) ?>" defer></script>
 </body></html>
 <?php
     return (string) ob_get_clean();
@@ -71,20 +71,25 @@ function layout(array $p, string $body): string
 function search_box(string $variant): string
 {
     $id = 'q-' . $variant;
-    $placeholder = $variant === 'hero' ? 'Cod sau activitate — 6210, software, construcții' : 'Caută un cod CAEN';
-    $inputClass = 'w-full bg-card text-ink shadow-[0_1px_2px_rgba(18,56,36,0.06),0_0_0_1px_rgba(18,56,36,0.1)] outline-none placeholder:text-muted/70 focus:shadow-[0_0_0_4px_rgba(196,83,42,0.18),0_0_0_1px_#c4532a] '
-        . ($variant === 'hero' ? 'rounded-2xl px-4 py-3.5 text-[17px]' : 'rounded-xl px-3.5 py-2 text-[15px]');
+    $placeholder = $variant === 'hero' ? 'Caută cod sau activitate' : 'Caută un cod CAEN';
+    $icon = '<svg ' . ($variant === 'compact' ? 'class="lc-compact-icon" ' : '') . 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
 
-    return '<div class="relative" data-search="' . h($variant) . '"><form role="search">'
+    return '<div class="relative" data-search="' . h($variant) . '"><form role="search" class="lc-field">' . $icon
         . '<label for="' . $id . '" class="sr-only">Caută un cod CAEN sau o activitate</label>'
-        . '<input id="' . $id . '" type="search" role="combobox" aria-expanded="false" aria-controls="' . $id . '-results" aria-autocomplete="list" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search" placeholder="' . h($placeholder) . '" class="' . $inputClass . '" value="">'
+        . '<input id="' . $id . '" type="search" role="combobox" aria-expanded="false" aria-controls="' . $id . '-results" aria-autocomplete="list" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search" placeholder="' . h($placeholder) . '" class="lc-input lc-input-' . h($variant) . '" value="">'
+        . '<kbd class="lc-kbd" aria-hidden="true">/</kbd>'
         . '</form><p class="sr-only" aria-live="polite"></p><div data-results></div></div>';
+}
+
+function brand_mark(): string
+{
+    return '<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#163028"/><path d="M8 16h8v24h11v8H8z" fill="#fffdf8"/><path d="M49.42 24.58A10.5 10.5 0 1 0 49.42 39.42" fill="none" stroke="#e7a07a" stroke-width="7"/></svg>';
 }
 
 function site_header(bool $home): string
 {
     $s = '<header class="sticky top-0 z-30 border-b border-line/80 bg-card/85 backdrop-blur-xl"><div class="mx-auto flex max-w-[44rem] flex-wrap items-center gap-3 px-5 py-3">'
-        . '<a class="order-1 text-[1.0625rem] font-semibold tracking-[-0.02em] text-ink" href="/">listacaen<span class="text-muted">.ro</span></a>';
+        . '<a class="lc-brand order-1 text-[1.0625rem] text-ink" href="/" aria-label="listacaen.ro, prima pagină">' . brand_mark() . '<span>listacaen<span class="text-muted">.ro</span></span></a>';
     if (!$home) {
         $s .= '<div class="order-3 w-full sm:order-2 sm:w-auto sm:min-w-0 sm:flex-1">' . search_box('compact') . '</div>';
     }

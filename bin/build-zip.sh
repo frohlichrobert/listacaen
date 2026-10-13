@@ -5,5 +5,5 @@ set -e
 cd "$(dirname "$0")/.."
 php bin/build-search.php
 rm -f site.zip
-zip -qr site.zip .htaccess index.php favicon.ico inc data assets -x "*.DS_Store"
+zip -qr site.zip .htaccess index.php favicon.ico $(ls ./*.txt 2>/dev/null) inc data assets -x "*.DS_Store"
 ls -lh site.zip

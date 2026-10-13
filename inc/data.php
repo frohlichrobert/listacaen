@@ -8,6 +8,7 @@ const SITE_URL = 'https://listacaen.ro';
 const SITE_NAME = 'listacaen.ro';
 const GA_ID = 'G-X3YVX1G101';
 const LASTMOD = '2026-10-13';
+const ASSET_V = '6'; // crește când schimbi CSS/JS, ca să se reîncarce din cache
 
 const LEVEL_LABEL = [
     'section' => 'Secțiune',

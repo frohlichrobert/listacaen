@@ -1,0 +1,231 @@
+/* Design: peste assets/site.css (Tailwind compilat). CSS-ul fără @layer are
+   prioritate peste utilitarele Tailwind, deci poate suprascrie culori și carduri. */
+
+:root {
+  --paper: #f1f6f3;
+  --card: #ffffff;
+  --hover: #eef6f1;
+  --line: #d6e4db;
+  --muted: #53695f;
+  --shadow-sm: 0 1px 2px rgba(16, 40, 30, 0.05);
+  --shadow-md: 0 1px 2px rgba(16, 40, 30, 0.04), 0 12px 32px -16px rgba(16, 40, 30, 0.22);
+}
+
+body {
+  background:
+    radial-gradient(820px 360px at 8% -90px, rgba(231, 160, 122, 0.2), transparent 62%),
+    radial-gradient(900px 420px at 96% -70px, rgba(15, 106, 69, 0.16), transparent 60%),
+    var(--paper);
+  background-attachment: fixed;
+}
+
+/* ---------- header ---------- */
+header.sticky {
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(22, 48, 40, 0.08);
+}
+.lc-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+.lc-brand svg { width: 28px; height: 28px; border-radius: 8px; flex: none; }
+
+/* ---------- carduri și liste ---------- */
+.lc-card {
+  border-radius: 18px;
+  border: 1px solid #e1ece5;
+  background: var(--card);
+  box-shadow: var(--shadow-md);
+}
+.lc-card a, .lc-card > li > div { transition: background-color 0.15s ease; }
+.lc-card li { border-color: #e9f0eb; }
+
+/* ---------- hero ---------- */
+.lc-hero { padding-top: 0.25rem; }
+.lc-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 550;
+}
+.lc-eyebrow i { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.lc-title {
+  margin-top: 1rem;
+  font-size: clamp(2.7rem, 8vw, 3.9rem);
+  line-height: 1;
+  letter-spacing: -0.047em;
+  font-weight: 700;
+}
+.lc-lead {
+  margin-top: 1rem;
+  max-width: 34rem;
+  font-size: 1.125rem;
+  line-height: 1.55;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+/* ---------- căutare ---------- */
+.lc-search-wrap { margin-top: 2.1rem; }
+.lc-field { position: relative; }
+.lc-field > svg {
+  position: absolute;
+  left: 1.05rem;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+.lc-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s, background-color 0.15s;
+}
+.lc-input::placeholder { color: rgba(83, 105, 95, 0.75); }
+.lc-input-hero {
+  height: 3.75rem;
+  padding: 0 3.6rem 0 3.1rem;
+  border-radius: 1.15rem;
+  font-size: 1.0625rem;
+  box-shadow: var(--shadow-md);
+}
+.lc-input-compact {
+  height: 2.5rem;
+  padding: 0 0.9rem 0 2.55rem;
+  border-radius: 999px;
+  border-color: transparent;
+  background: #eaf2ed;
+  font-size: 15px;
+}
+.lc-input-compact + .lc-kbd { display: none; }
+.lc-field > svg.lc-compact-icon { left: 0.9rem; width: 18px; height: 18px; }
+.lc-input-compact:hover { background: #e3eee7; }
+.lc-input:focus {
+  border-color: var(--accent);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(196, 83, 42, 0.16), var(--shadow-md);
+}
+.lc-kbd {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.12rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #f5faf7;
+  color: var(--muted);
+  font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace;
+  pointer-events: none;
+}
+.lc-input:not(:placeholder-shown) ~ .lc-kbd, .lc-input:focus ~ .lc-kbd { display: none; }
+@media (max-width: 640px) { .lc-kbd { display: none; } }
+
+.lc-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: var(--muted);
+}
+.lc-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.lc-chip b { color: var(--code); font-weight: 600; font-variant-numeric: tabular-nums; }
+.lc-chip:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* rezultate */
+.lc-results {
+  margin-top: 0.65rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  background: #fff;
+  box-shadow: 0 22px 48px -18px rgba(16, 40, 30, 0.34);
+}
+.lc-results.lc-abs { position: absolute; z-index: 40; left: 0; right: 0; }
+.lc-hit {
+  display: grid;
+  grid-template-columns: 3.6rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0 0.75rem;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+.lc-hit[aria-selected="true"] { background: var(--hover); }
+.lc-hit-code { color: var(--code); font-weight: 600; font-size: 15px; font-variant-numeric: tabular-nums; }
+.lc-hit-name { display: block; line-height: 1.35; }
+.lc-hit-ctx { display: block; margin-top: 0.15rem; font-size: 13px; color: var(--muted); }
+.lc-badge {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.lc-note { padding: 0.65rem 1rem; font-size: 13.5px; color: var(--muted); border-top: 1px solid #e9f0eb; }
+.lc-empty { padding: 0.85rem 1rem; font-size: 14.5px; color: var(--muted); }
+
+/* ---------- cifre ---------- */
+.lc-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 2.25rem;
+}
+.lc-stat {
+  padding: 0.95rem 0.4rem;
+  border: 1px solid #e1ece5;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+.lc-stat b {
+  display: block;
+  color: var(--code);
+  font-size: 1.55rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+.lc-stat span { font-size: 12.5px; color: var(--muted); }
+
+/* ---------- diverse ---------- */
+button[data-copy] { box-shadow: 0 6px 16px -8px rgba(196, 83, 42, 0.7); }
+footer { border-top: 1px solid rgba(22, 48, 40, 0.07); }

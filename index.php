@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 // Front controller: .htaccess trimite aici orice URL care nu e fișier real.
 
+require __DIR__ . '/inc/compat.php';
 require __DIR__ . '/inc/data.php';
 require __DIR__ . '/inc/seo.php';
 require __DIR__ . '/inc/view.php';

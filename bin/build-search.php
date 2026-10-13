@@ -4,6 +4,7 @@ declare(strict_types=1);
 // Generează assets/search.json, folosit de căutarea din browser.
 // Folosire: php bin/build-search.php
 
+require __DIR__ . '/../inc/compat.php';
 require __DIR__ . '/../inc/data.php';
 
 function fold_text(string $v): string

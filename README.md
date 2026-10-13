@@ -39,4 +39,16 @@ python3 scripts/rev2-from-pdf.py
 python3 scripts/corespondenta-from-pdf.py
 ```
 
-Aspectul folosește `assets/site.css`, un CSS Tailwind deja compilat. Clase noi în markup nu apar în el decât dacă sunt recompilate.
+Aspectul vine din `assets/site.css` (Tailwind deja compilat, nu se mai modifică) și din `assets/extra.css` (design propriu: hero, căutare, carduri; prevalează asupra Tailwind). Clase Tailwind noi în markup nu au efect, deci stilurile noi se scriu în `extra.css`, cu prefixul `lc-`. După orice modificare de CSS/JS crește `ASSET_V` în `inc/data.php`, ca browserele să nu folosească fișierele vechi din cache.
+
+## IndexNow
+
+Anunță Bing, Yandex, Seznam, Naver și Yep despre adrese noi sau schimbate (Google nu folosește IndexNow, acolo rămâne Search Console).
+
+```bash
+php bin/indexnow.php --dry-run   # ce s-ar trimite
+php bin/indexnow.php             # trimite toate adresele din sitemap
+php bin/indexnow.php /caen/6210/ # doar anumite adrese
+```
+
+Cheia este fișierul `<cheie>.txt` din rădăcină (public, nu e secret) și trebuie urcat pe server la `https://listacaen.ro/<cheie>.txt` înainte de trimitere. `bin/build-zip.sh` îl include în `site.zip`.

@@ -20,17 +20,22 @@ function page_home(): string
         }
     }
     $stats = '';
-    foreach ([[$c['sections'], 'secțiuni'], [$c['divisions'], 'diviziuni'], [$c['groups'], 'grupe'], [$c['classes'], 'clase']] as $i => [$v, $label]) {
-        $stats .= '<div class="px-2 py-4 text-center sm:px-3' . ($i > 0 ? ' border-l border-line/80' : '') . '">'
-            . '<dt class="text-[1.35rem] font-semibold tracking-[-0.03em] tabular-nums text-code sm:text-[1.5rem]">' . $v . '</dt>'
-            . '<dd class="mt-0.5 text-[11px] text-muted sm:text-[13px]">' . $label . '</dd></div>';
+    foreach ([[$c['sections'], 'secțiuni'], [$c['divisions'], 'diviziuni'], [$c['groups'], 'grupe'], [$c['classes'], 'clase']] as [$v, $label]) {
+        $stats .= '<div class="lc-stat"><b>' . $v . '</b><span>' . $label . '</span></div>';
+    }
+    $chips = '';
+    foreach ([['6210', 'Software'], ['5611', 'Restaurante'], ['4711', 'Magazin alimentar'], ['4941', 'Transport marfă'], ['6920', 'Contabilitate']] as [$code, $label]) {
+        $chips .= '<a class="lc-chip" href="' . caen_path($code) . '"><b>' . $code . '</b>' . h($label) . '</a>';
     }
 
-    $body = '<p class="text-[13px] font-medium text-accent">CAEN Rev. 3</p>'
-        . '<h1 class="mt-2 text-[2.75rem] font-semibold leading-[1.05] tracking-[-0.035em] text-balance">Coduri CAEN</h1>'
-        . '<p class="mt-3 max-w-md text-[17px] leading-relaxed text-pretty text-muted">Lista CAEN completă: toate codurile CAEN Rev. 3, pentru activitățile din economia națională. Caută un cod CAEN sau răsfoiește secțiunile.</p>'
-        . '<div class="mt-6">' . search_box('hero') . '</div>'
-        . '<dl class="mt-6 grid grid-cols-4 overflow-hidden rounded-2xl bg-card ' . CARD . '">' . $stats . '</dl>'
+    $body = '<section class="lc-hero">'
+        . '<p class="lc-eyebrow"><i></i>CAEN Rev. 3 · în vigoare din 2025</p>'
+        . '<h1 class="lc-title">Coduri CAEN</h1>'
+        . '<p class="lc-lead">Lista CAEN completă: toate codurile CAEN Rev. 3, pentru activitățile din economia națională. Caută un cod CAEN sau răsfoiește secțiunile.</p>'
+        . '<div class="lc-search-wrap">' . search_box('hero') . '</div>'
+        . '<div class="lc-chips"><span>Căutări rapide:</span>' . $chips . '</div>'
+        . '</section>'
+        . '<div class="lc-stats">' . $stats . '</div>'
         . '<h2 class="mt-12 text-[1.375rem] font-semibold tracking-[-0.022em]">Secțiuni</h2>' . code_list($secs)
         . '<section class="mt-14"><h2 class="text-[1.375rem] font-semibold tracking-[-0.022em]">Coduri CAEN căutate frecvent</h2>' . code_list($pop) . '</section>'
         . '<section class="mt-14 space-y-4 text-[1.0625rem] leading-relaxed text-pretty"><h2 class="text-[1.375rem] font-semibold tracking-[-0.022em]">Ce sunt codurile CAEN</h2>'
@@ -325,7 +330,8 @@ function page_404(): string
     return layout(['title' => 'Pagina nu există | listacaen.ro', 'description' => 'Pagina nu există.', 'noindex' => true], $b);
 }
 
-function sitemap_xml(): string
+/** @return array<int,array{0:string,1:float}> perechi [cale, prioritate] */
+function sitemap_urls(): array
 {
     $urls = [['/', 1], ['/despre/', 0.4], ['/ghid/cum-alegi-codul-caen/', 0.6], ['/caen-rev2/', 0.8]];
     foreach (rev2()['classes'] as $c) {
@@ -333,11 +339,15 @@ function sitemap_xml(): string
     }
     $prio = ['section' => 0.8, 'division' => 0.7, 'class' => 0.6, 'group' => 0.5];
     foreach (caen()['ordered'] as $slug) {
-        $n = node($slug);
-        $urls[] = [caen_path($slug), $prio[$n['level']]];
+        $urls[] = [caen_path($slug), $prio[node($slug)['level']]];
     }
+    return $urls;
+}
+
+function sitemap_xml(): string
+{
     $x = '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    foreach ($urls as [$path, $p]) {
+    foreach (sitemap_urls() as [$path, $p]) {
         $x .= '<url><loc>' . h(abs_url($path)) . '</loc><lastmod>' . LASTMOD . '</lastmod><changefreq>yearly</changefreq><priority>' . $p . '</priority></url>' . "\n";
     }
     return $x . '</urlset>' . "\n";
