@@ -1,4 +1,4 @@
-"""Extrage structura CAEN Rev. 2 din PDF-ul INS în src/data/caen-rev2.json.
+"""Extrage structura CAEN Rev. 2 din PDF-ul INS în data/caen-rev2.json.
 
 Folosire: python3 scripts/rev2-from-pdf.py
 Necesită `pdftotext` (poppler).
@@ -9,7 +9,7 @@ import subprocess
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-pdf = root / "src/data/CAEN-Rev.2_structura-completa.pdf"
+pdf = root / "data-src/CAEN-Rev.2_structura-completa.pdf"
 text = subprocess.run(
     ["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True, check=True
 ).stdout
@@ -54,7 +54,7 @@ out = {
     "divisions": {k: clean(v) for k, v in divisions.items()},
     "classes": {k: clean(v) for k, v in classes.items()},
 }
-(root / "src/data/caen-rev2.json").write_text(
+(root / "data/caen-rev2.json").write_text(
     json.dumps(out, ensure_ascii=False, indent=1) + "\n"
 )
 print(len(out["divisions"]), "diviziuni,", len(out["classes"]), "clase")

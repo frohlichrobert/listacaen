@@ -1,5 +1,5 @@
 """Extrage corespondența CAEN Rev. 2 -> Rev. 3 din PDF-ul INS în
-src/data/caen-corespondenta.json.
+data/caen-corespondenta.json.
 
 Folosire: python3 scripts/corespondenta-from-pdf.py
 Necesită `pdftotext` (poppler).
@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-pdf = root / "src/data/Corespondenta-CAEN-Rev.2-CAEN-Rev.3.pdf"
+pdf = root / "data-src/Corespondenta-CAEN-Rev.2-CAEN-Rev.3.pdf"
 text = subprocess.run(
     ["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True, check=True
 ).stdout
@@ -36,7 +36,7 @@ for row in rows:
     note = re.sub(r"\s+", " ", row["note"]).strip()
     row["note"] = "" if note in ("=", "") else note
 
-(root / "src/data/caen-corespondenta.json").write_text(
+(root / "data/caen-corespondenta.json").write_text(
     json.dumps(rows, ensure_ascii=False, indent=1) + "\n"
 )
 print(len(rows), "rânduri,", len({r["rev2"] for r in rows}), "coduri Rev.2,", len({r["rev3"] for r in rows}), "coduri Rev.3")
