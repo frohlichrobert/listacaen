@@ -1,0 +1,4352 @@
+[
+ {
+  "rev2": "0111",
+  "rev3": "0111",
+  "note": ""
+ },
+ {
+  "rev2": "0112",
+  "rev3": "0112",
+  "note": ""
+ },
+ {
+  "rev2": "0113",
+  "rev3": "0113",
+  "note": ""
+ },
+ {
+  "rev2": "0114",
+  "rev3": "0114",
+  "note": ""
+ },
+ {
+  "rev2": "0115",
+  "rev3": "0115",
+  "note": ""
+ },
+ {
+  "rev2": "0116",
+  "rev3": "0116",
+  "note": ""
+ },
+ {
+  "rev2": "0119",
+  "rev3": "0113",
+  "note": "Cultivarea de rădăcinoase și tuberculi cum sunt: mangoldul și rutabaga."
+ },
+ {
+  "rev2": "0119",
+  "rev3": "0119",
+  "note": "= (excluzând cultivarea de mangold și rutabaga)."
+ },
+ {
+  "rev2": "0121",
+  "rev3": "0121",
+  "note": ""
+ },
+ {
+  "rev2": "0122",
+  "rev3": "0122",
+  "note": ""
+ },
+ {
+  "rev2": "0123",
+  "rev3": "0123",
+  "note": ""
+ },
+ {
+  "rev2": "0124",
+  "rev3": "0124",
+  "note": ""
+ },
+ {
+  "rev2": "0125",
+  "rev3": "0125",
+  "note": ""
+ },
+ {
+  "rev2": "0126",
+  "rev3": "0126",
+  "note": ""
+ },
+ {
+  "rev2": "0127",
+  "rev3": "0127",
+  "note": ""
+ },
+ {
+  "rev2": "0128",
+  "rev3": "0113",
+  "note": "Cultivarea de ardei iute (capsicum sop.)."
+ },
+ {
+  "rev2": "0128",
+  "rev3": "0128",
+  "note": "= (excluzând cultivarea de ardei iute (capsicum sop.))."
+ },
+ {
+  "rev2": "0129",
+  "rev3": "0129",
+  "note": ""
+ },
+ {
+  "rev2": "0130",
+  "rev3": "0130",
+  "note": ""
+ },
+ {
+  "rev2": "0141",
+  "rev3": "0141",
+  "note": ""
+ },
+ {
+  "rev2": "0142",
+  "rev3": "0141",
+  "note": "Producția de material seminal de la bovinele din rasele de lapte"
+ },
+ {
+  "rev2": "0142",
+  "rev3": "0142",
+  "note": "= (producția de material seminal de la bovinele din rasele de lapte)."
+ },
+ {
+  "rev2": "0143",
+  "rev3": "0143",
+  "note": ""
+ },
+ {
+  "rev2": "0144",
+  "rev3": "0144",
+  "note": ""
+ },
+ {
+  "rev2": "0145",
+  "rev3": "0145",
+  "note": ""
+ },
+ {
+  "rev2": "0146",
+  "rev3": "0146",
+  "note": ""
+ },
+ {
+  "rev2": "0147",
+  "rev3": "0147",
+  "note": ""
+ },
+ {
+  "rev2": "0149",
+  "rev3": "0147",
+  "note": "Creșterea prepelițelor și struților."
+ },
+ {
+  "rev2": "0149",
+  "rev3": "0148",
+  "note": "= (excluzând creșterea de prepelițe și struți)."
+ },
+ {
+  "rev2": "0150",
+  "rev3": "0150",
+  "note": ""
+ },
+ {
+  "rev2": "0161",
+  "rev3": "0161",
+  "note": ""
+ },
+ {
+  "rev2": "0162",
+  "rev3": "0147",
+  "note": "Clocirea automată a ouălor de păsări de curte."
+ },
+ {
+  "rev2": "0162",
+  "rev3": "0162",
+  "note": "= (excluzând clocirea automată a ouălor de păsări de curte)."
+ },
+ {
+  "rev2": "0163",
+  "rev3": "0163",
+  "note": ""
+ },
+ {
+  "rev2": "0170",
+  "rev3": "0170",
+  "note": ""
+ },
+ {
+  "rev2": "0210",
+  "rev3": "0210",
+  "note": ""
+ },
+ {
+  "rev2": "0220",
+  "rev3": "0220",
+  "note": ""
+ },
+ {
+  "rev2": "0230",
+  "rev3": "0230",
+  "note": ""
+ },
+ {
+  "rev2": "0240",
+  "rev3": "0240",
+  "note": ""
+ },
+ {
+  "rev2": "0311",
+  "rev3": "0311",
+  "note": "= (excluzând serviciile suport pentru pescuitul maritim)."
+ },
+ {
+  "rev2": "0311",
+  "rev3": "0330",
+  "note": "Activități de servicii suport pentru pescuitul maritim."
+ },
+ {
+  "rev2": "0312",
+  "rev3": "0312",
+  "note": "= (excluzând serviciile suport pentru pescuitul maritim)."
+ },
+ {
+  "rev2": "0312",
+  "rev3": "0330",
+  "note": "Activități de servicii suport pentru pescuitul în ape dulci."
+ },
+ {
+  "rev2": "0321",
+  "rev3": "0321",
+  "note": "= (excluzând serviciile suport pentru acvacultura maritimă)."
+ },
+ {
+  "rev2": "0321",
+  "rev3": "0330",
+  "note": "Activități de servicii suport pentru acvacultura maritimă. 1 1"
+ },
+ {
+  "rev2": "0322",
+  "rev3": "0148",
+  "note": "Creșterea reptilelor acvatice."
+ },
+ {
+  "rev2": "0322",
+  "rev3": "0322",
+  "note": "= (excluzând serviciile suport pentru acvacultura în ape dulci și creșterea reptilelor acvatice)."
+ },
+ {
+  "rev2": "0322",
+  "rev3": "0330",
+  "note": "Activități de servicii suport pentru acvacultura în ape dulci."
+ },
+ {
+  "rev2": "0510",
+  "rev3": "0510",
+  "note": ""
+ },
+ {
+  "rev2": "0520",
+  "rev3": "0520",
+  "note": ""
+ },
+ {
+  "rev2": "0610",
+  "rev3": "0610",
+  "note": ""
+ },
+ {
+  "rev2": "0620",
+  "rev3": "0620",
+  "note": ""
+ },
+ {
+  "rev2": "0710",
+  "rev3": "0710",
+  "note": ""
+ },
+ {
+  "rev2": "0721",
+  "rev3": "0721",
+  "note": ""
+ },
+ {
+  "rev2": "0729",
+  "rev3": "0729",
+  "note": ""
+ },
+ {
+  "rev2": "0811",
+  "rev3": "0811",
+  "note": ""
+ },
+ {
+  "rev2": "0812",
+  "rev3": "0812",
+  "note": ""
+ },
+ {
+  "rev2": "0891",
+  "rev3": "0891",
+  "note": ""
+ },
+ {
+  "rev2": "0892",
+  "rev3": "0892",
+  "note": ""
+ },
+ {
+  "rev2": "0893",
+  "rev3": "0893",
+  "note": ""
+ },
+ {
+  "rev2": "0899",
+  "rev3": "0899",
+  "note": ""
+ },
+ {
+  "rev2": "0910",
+  "rev3": "0910",
+  "note": ""
+ },
+ {
+  "rev2": "0990",
+  "rev3": "0990",
+  "note": ""
+ },
+ {
+  "rev2": "1011",
+  "rev3": "1011",
+  "note": ""
+ },
+ {
+  "rev2": "1012",
+  "rev3": "1012",
+  "note": ""
+ },
+ {
+  "rev2": "1013",
+  "rev3": "1013",
+  "note": ""
+ },
+ {
+  "rev2": "1020",
+  "rev3": "1020",
+  "note": ""
+ },
+ {
+  "rev2": "1031",
+  "rev3": "1031",
+  "note": ""
+ },
+ {
+  "rev2": "1032",
+  "rev3": "1032",
+  "note": ""
+ },
+ {
+  "rev2": "1039",
+  "rev3": "1039",
+  "note": ""
+ },
+ {
+  "rev2": "1041",
+  "rev3": "1041",
+  "note": ""
+ },
+ {
+  "rev2": "1042",
+  "rev3": "1042",
+  "note": ""
+ },
+ {
+  "rev2": "1051",
+  "rev3": "1051",
+  "note": ""
+ },
+ {
+  "rev2": "1052",
+  "rev3": "1052",
+  "note": ""
+ },
+ {
+  "rev2": "1061",
+  "rev3": "1061",
+  "note": ""
+ },
+ {
+  "rev2": "1062",
+  "rev3": "1062",
+  "note": ""
+ },
+ {
+  "rev2": "1071",
+  "rev3": "1071",
+  "note": ""
+ },
+ {
+  "rev2": "1072",
+  "rev3": "1072",
+  "note": ""
+ },
+ {
+  "rev2": "1073",
+  "rev3": "1073",
+  "note": ""
+ },
+ {
+  "rev2": "1081",
+  "rev3": "1081",
+  "note": ""
+ },
+ {
+  "rev2": "1082",
+  "rev3": "1082",
+  "note": ""
+ },
+ {
+  "rev2": "1083",
+  "rev3": "1083",
+  "note": ""
+ },
+ {
+  "rev2": "1084",
+  "rev3": "1084",
+  "note": ""
+ },
+ {
+  "rev2": "1085",
+  "rev3": "1085",
+  "note": ""
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1061",
+  "note": "Fabricarea produselor de morărit fără gluten."
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1062",
+  "note": "Fabricarea produselor produselor din amidon fără gluten."
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1071",
+  "note": "Fabricarea pâinii fără gluten; fabricarea prăjiturilor și a produselor proaspete de patiserie fără gluten."
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1072",
+  "note": "Fabricarea biscuiților și pișcoturilor fără gluten; fabricarea prăjiturilor și a produselor conservate de patiserie fără gluten."
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1073",
+  "note": "Fabricarea macaroanelor, tăițeilor, cuş-cuş-ului și a altor produse făinoase, fără gluten."
+ },
+ {
+  "rev2": "1086",
+  "rev3": "1086",
+  "note": "= (excluzând fabricarea produselor fără gluten)."
+ },
+ {
+  "rev2": "1089",
+  "rev3": "1089",
+  "note": ""
+ },
+ {
+  "rev2": "1091",
+  "rev3": "1091",
+  "note": ""
+ },
+ {
+  "rev2": "1092",
+  "rev3": "1092",
+  "note": ""
+ },
+ {
+  "rev2": "1101",
+  "rev3": "1101",
+  "note": ""
+ },
+ {
+  "rev2": "1102",
+  "rev3": "1102",
+  "note": ""
+ },
+ {
+  "rev2": "1103",
+  "rev3": "1103",
+  "note": ""
+ },
+ {
+  "rev2": "1104",
+  "rev3": "1104",
+  "note": ""
+ },
+ {
+  "rev2": "1105",
+  "rev3": "1105",
+  "note": ""
+ },
+ {
+  "rev2": "1106",
+  "rev3": "1106",
+  "note": "= 2 2"
+ },
+ {
+  "rev2": "1107",
+  "rev3": "1107",
+  "note": ""
+ },
+ {
+  "rev2": "1200",
+  "rev3": "1200",
+  "note": ""
+ },
+ {
+  "rev2": "1310",
+  "rev3": "1310",
+  "note": ""
+ },
+ {
+  "rev2": "1320",
+  "rev3": "1320",
+  "note": "= (excluzând fabricarea țesăturilor din fibre de sticlă și din fire de carbon)."
+ },
+ {
+  "rev2": "1320",
+  "rev3": "1396",
+  "note": "Fabricarea țesăturilor din fibre de sticlă."
+ },
+ {
+  "rev2": "1320",
+  "rev3": "2399",
+  "note": "Fabricarea țesăturilor din fire de carbon."
+ },
+ {
+  "rev2": "1330",
+  "rev3": "1330",
+  "note": "= (excluzând imprimarea pe articole textile și de îmbrăcăminte)."
+ },
+ {
+  "rev2": "1330",
+  "rev3": "1812",
+  "note": "Imprimarea pe articole textile și de îmbrăcăminte."
+ },
+ {
+  "rev2": "1391",
+  "rev3": "1391",
+  "note": ""
+ },
+ {
+  "rev2": "1392",
+  "rev3": "1392",
+  "note": "= (excluzând fabricarea de prelate, corturi, articole pentru camping, vele pentru ambarcațiuni, parașute parasolare, huse (de automobile, aparate sau mobilă. etc.))"
+ },
+ {
+  "rev2": "1392",
+  "rev3": "1396",
+  "note": "Fabricarea de prelate, corturi, articole pentru camping, vele pentru ambarcațiuni, parașute parasolare, huse (de automobile, aparate sau mobilă. etc.)"
+ },
+ {
+  "rev2": "1393",
+  "rev3": "1393",
+  "note": ""
+ },
+ {
+  "rev2": "1394",
+  "rev3": "1394",
+  "note": ""
+ },
+ {
+  "rev2": "1395",
+  "rev3": "1395",
+  "note": ""
+ },
+ {
+  "rev2": "1396",
+  "rev3": "1396",
+  "note": ""
+ },
+ {
+  "rev2": "1399",
+  "rev3": "1399",
+  "note": ""
+ },
+ {
+  "rev2": "1411",
+  "rev3": "1424",
+  "note": ""
+ },
+ {
+  "rev2": "1412",
+  "rev3": "1423",
+  "note": ""
+ },
+ {
+  "rev2": "1413",
+  "rev3": "1410",
+  "note": "Fabricarea de articole de îmbrăcăminte tricotate sau croșetate de ex. pulovere, cardigane, jerseuri, cămăși, tricouri, bluze, veste, inclusiv îmbrăcăminte pentru bebeluși"
+ },
+ {
+  "rev2": "1413",
+  "rev3": "1421",
+  "note": "Fabricarea de articole de îmbrăcăminte, altele decât cele tricotate sau croșetate, de ex. paltoane, costume, ansambluri, jachete, pantaloni, fuste, cămăși, tricouri, bluze; - rochii de mireasa si alte haine pentru ceremonie; - croitorie la comanda."
+ },
+ {
+  "rev2": "1414",
+  "rev3": "1410",
+  "note": "Fabricarea de articole de îmbrăcăminte și a altor articole, prin tricotare sau croșetare, și, de ex. lenjerie"
+ },
+ {
+  "rev2": "1414",
+  "rev3": "1422",
+  "note": "Fabricarea de lenjerie de corp și lenjerie de noapte țesute, altele decât cele tricotate sau croșetate, de exemplu chiloți, pijamale, cămăși de noapte, halate, sutiene, corsete, costume de baie, lenjerie intimă. Fabricarea de sutiene si corsete din toate tipurile de materiale textile."
+ },
+ {
+  "rev2": "1419",
+  "rev3": "1410",
+  "note": "Fabricarea articolelor de îmbrăcăminte pentru bebeluși, tricotate sau croșetate. Fabricarea articolelor de îmbrăcăminte pentru sport și de baie, tricotate sau croșetate."
+ },
+ {
+  "rev2": "1419",
+  "rev3": "1421",
+  "note": "Fabricarea de articole de îmbrăcăminte pentru bebeluși, altele decât cele tricotate sau croșetate, mai puțin lenjerie."
+ },
+ {
+  "rev2": "1419",
+  "rev3": "1422",
+  "note": "Fabricarea articolelor de lenjerie pentru bebeluși."
+ },
+ {
+  "rev2": "1419",
+  "rev3": "1424",
+  "note": "Fabricarea de îmbrăcăminte din blană și accesorii de îmbrăcăminte"
+ },
+ {
+  "rev2": "1419",
+  "rev3": "1429",
+  "note": "Fabricarea de îmbrăcăminte pentru sport din țesături, de exemplu, treninguri, costume de schi, costume de baie și alte articole de îmbrăcăminte pentru sport Fabricarea de pălării și șepci. Fabricarea altor accesorii vestimentare, de ex. mănuși, curele, șaluri, fulare, cravate, plase de păr. Fabricarea de încălțăminte din material textil fără tălpi aplicate, cu excepția celor tricotate sau croșetate."
+ },
+ {
+  "rev2": "1420",
+  "rev3": "1424",
+  "note": ""
+ },
+ {
+  "rev2": "1431",
+  "rev3": "1410",
+  "note": ""
+ },
+ {
+  "rev2": "1439",
+  "rev3": "1410",
+  "note": ""
+ },
+ {
+  "rev2": "1511",
+  "rev3": "1511",
+  "note": ""
+ },
+ {
+  "rev2": "1512",
+  "rev3": "1512",
+  "note": ""
+ },
+ {
+  "rev2": "1520",
+  "rev3": "1520",
+  "note": ""
+ },
+ {
+  "rev2": "1610",
+  "rev3": "1611",
+  "note": "Activități de tăiere, rindeluire si prelucrarea lemnului - tăierea, decojirea sau tocarea buștenilor - fabricarea traverselor de cale ferată din lemn - fabricarea parchetului neasamblat din lemn - fabricarea, în afara pădurii, de vata de lemn, rumeguș si faina de lemn, așchii și particule de lemn"
+ },
+ {
+  "rev2": "1610",
+  "rev3": "1612",
+  "note": "Activități generale de prelucrare și finisare a lemnului, care se desfășoară de obicei pe bază de comision sau contract: - alezarea, strunjirea, frezarea, erodarea, broșarea, șlefuirea, lustruirea, îmbinare etc. a lemnului - uscarea lemnului - impregnarea sau tratarea chimică a lemnului"
+ },
+ {
+  "rev2": "1621",
+  "rev3": "1621",
+  "note": "= (excluzând finisarea produselor din lemn) 3 3"
+ },
+ {
+  "rev2": "1621",
+  "rev3": "1627",
+  "note": "Finisarea produselor din lemn"
+ },
+ {
+  "rev2": "1622",
+  "rev3": "1622",
+  "note": "= (excluzând finisarea produselor din lemn)"
+ },
+ {
+  "rev2": "1622",
+  "rev3": "1627",
+  "note": "Finisarea produselor din lemn"
+ },
+ {
+  "rev2": "1623",
+  "rev3": "1623",
+  "note": "= (excluzând fabricarea de uși și ferestre; activități de finisare a produselor din lemn)"
+ },
+ {
+  "rev2": "1623",
+  "rev3": "1625",
+  "note": "Fabricarea ușilor, tocurilor si pragurilor acestora, din lemn; fabricarea de ferestre și obloane, inclusiv tocurile acestora, din lemn; fabricarea de usi si ferestre din mai multe materiale, cu toc din lemn."
+ },
+ {
+  "rev2": "1623",
+  "rev3": "1627",
+  "note": "Finisarea produselor din lemn"
+ },
+ {
+  "rev2": "1624",
+  "rev3": "1624",
+  "note": "= (excluzând finisarea produselor din lemn)"
+ },
+ {
+  "rev2": "1624",
+  "rev3": "1627",
+  "note": "Finisarea produselor din lemn"
+ },
+ {
+  "rev2": "1629",
+  "rev3": "1520",
+  "note": "Fabricarea părților din lemn pentru încălțăminte"
+ },
+ {
+  "rev2": "1629",
+  "rev3": "1626",
+  "note": "Fabricarea de bușteni de foc și de peleți din rumeguș aglomerat, din deșeuri și resturi de lemn, din paie sau altă biomasă vegetală"
+ },
+ {
+  "rev2": "1629",
+  "rev3": "1627",
+  "note": "Finisarea produselor din lemn"
+ },
+ {
+  "rev2": "1629",
+  "rev3": "1628",
+  "note": "= (excluzând: fabricarea părților din lemn pentru încălțăminte; fabricarea de combustibili solizi din biomasă vegetală; finisarea produselor din lemn)"
+ },
+ {
+  "rev2": "1711",
+  "rev3": "1711",
+  "note": ""
+ },
+ {
+  "rev2": "1712",
+  "rev3": "1712",
+  "note": ""
+ },
+ {
+  "rev2": "1721",
+  "rev3": "1721",
+  "note": ""
+ },
+ {
+  "rev2": "1722",
+  "rev3": "1722",
+  "note": ""
+ },
+ {
+  "rev2": "1723",
+  "rev3": "1723",
+  "note": ""
+ },
+ {
+  "rev2": "1724",
+  "rev3": "1724",
+  "note": ""
+ },
+ {
+  "rev2": "1729",
+  "rev3": "1725",
+  "note": ""
+ },
+ {
+  "rev2": "1811",
+  "rev3": "1811",
+  "note": ""
+ },
+ {
+  "rev2": "1812",
+  "rev3": "1812",
+  "note": ""
+ },
+ {
+  "rev2": "1813",
+  "rev3": "1813",
+  "note": ""
+ },
+ {
+  "rev2": "1814",
+  "rev3": "1814",
+  "note": ""
+ },
+ {
+  "rev2": "1820",
+  "rev3": "1820",
+  "note": ""
+ },
+ {
+  "rev2": "1910",
+  "rev3": "1910",
+  "note": ""
+ },
+ {
+  "rev2": "1920",
+  "rev3": "1920",
+  "note": ""
+ },
+ {
+  "rev2": "2011",
+  "rev3": "2011",
+  "note": "= (excluzând fabricarea gazelor frigorifice)"
+ },
+ {
+  "rev2": "2011",
+  "rev3": "2014",
+  "note": "Fabricarea gazelor frigorifice"
+ },
+ {
+  "rev2": "2012",
+  "rev3": "2012",
+  "note": ""
+ },
+ {
+  "rev2": "2013",
+  "rev3": "2013",
+  "note": ""
+ },
+ {
+  "rev2": "2014",
+  "rev3": "2014",
+  "note": "= (excluzând: fabricarea biocombustibililor lichizi)"
+ },
+ {
+  "rev2": "2014",
+  "rev3": "2051",
+  "note": "Fabricarea etanolului din biomasă; fabricarea amestecurilor de bioetanol și eteri derivați parțial din biomasă; fabricarea de biocombustibili lichizi, chiar dacă procesele folosesc ca materie primă deșeuri."
+ },
+ {
+  "rev2": "2015",
+  "rev3": "2015",
+  "note": ""
+ },
+ {
+  "rev2": "2016",
+  "rev3": "2016",
+  "note": ""
+ },
+ {
+  "rev2": "2017",
+  "rev3": "2017",
+  "note": ""
+ },
+ {
+  "rev2": "2020",
+  "rev3": "2020",
+  "note": ""
+ },
+ {
+  "rev2": "2030",
+  "rev3": "2030",
+  "note": ""
+ },
+ {
+  "rev2": "2041",
+  "rev3": "2041",
+  "note": ""
+ },
+ {
+  "rev2": "2042",
+  "rev3": "2042",
+  "note": ""
+ },
+ {
+  "rev2": "2052",
+  "rev3": "2059",
+  "note": ""
+ },
+ {
+  "rev2": "2059",
+  "rev3": "2051",
+  "note": "Fabricarea de biocombustibili lichizi"
+ },
+ {
+  "rev2": "2059",
+  "rev3": "2059",
+  "note": "= (excluzând: fabricarea biocombustibililor lichizi)"
+ },
+ {
+  "rev2": "2060",
+  "rev3": "2060",
+  "note": ""
+ },
+ {
+  "rev2": "2110",
+  "rev3": "2110",
+  "note": ""
+ },
+ {
+  "rev2": "2120",
+  "rev3": "2120",
+  "note": ""
+ },
+ {
+  "rev2": "2211",
+  "rev3": "2211",
+  "note": ""
+ },
+ {
+  "rev2": "2219",
+  "rev3": "1520",
+  "note": "Fabricarea părților din cauciuc pentru încălțăminte"
+ },
+ {
+  "rev2": "2219",
+  "rev3": "2212",
+  "note": "= (excluzând: fabricarea părților din cauciuc pentru încălțăminte)"
+ },
+ {
+  "rev2": "2221",
+  "rev3": "2221",
+  "note": "= (excluzând finisarea produselor din material plastic) 4 4"
+ },
+ {
+  "rev2": "2221",
+  "rev3": "2225",
+  "note": "Finisarea produselor din material plastic"
+ },
+ {
+  "rev2": "2222",
+  "rev3": "2222",
+  "note": "= (excluzând finisarea produselor din material plastic)"
+ },
+ {
+  "rev2": "2222",
+  "rev3": "2225",
+  "note": "Finisarea produselor din material plastic"
+ },
+ {
+  "rev2": "2223",
+  "rev3": "2223",
+  "note": "Fabricarea ușilor, ferestrelor si a tocurilor acestora, din material plastic; fabricarea de uși si ferestre din mai multe materiale, cu toc din material plastic; fabricarea obloanelor, jaluzelelor și articolelor similare, din material plastic; fabricarea obloanelor din mai multe materiale, cu rama din material plastic."
+ },
+ {
+  "rev2": "2223",
+  "rev3": "2224",
+  "note": "= (excluzând: fabricarea de uși și ferestre din material plastic; finisarea produselor din material plastic)"
+ },
+ {
+  "rev2": "2223",
+  "rev3": "2225",
+  "note": "Finisarea produselor din material plastic"
+ },
+ {
+  "rev2": "2229",
+  "rev3": "1520",
+  "note": "Fabricarea părților din cauciuc pentru încălțăminte"
+ },
+ {
+  "rev2": "2229",
+  "rev3": "2225",
+  "note": "Finisarea produselor din material plastic"
+ },
+ {
+  "rev2": "2229",
+  "rev3": "2226",
+  "note": "= (excluzând: fabricarea părților din material plastic, pentru încălțăminte; finisarea produselor din material plastic)"
+ },
+ {
+  "rev2": "2311",
+  "rev3": "2311",
+  "note": ""
+ },
+ {
+  "rev2": "2312",
+  "rev3": "2312",
+  "note": "= (excluzând fabricarea oglinzilor retrovizoare pentru autovehicule)"
+ },
+ {
+  "rev2": "2312",
+  "rev3": "2932",
+  "note": "Fabricarea oglinzilor retrovizoare pentru autovehicule"
+ },
+ {
+  "rev2": "2313",
+  "rev3": "2313",
+  "note": ""
+ },
+ {
+  "rev2": "2314",
+  "rev3": "2314",
+  "note": ""
+ },
+ {
+  "rev2": "2319",
+  "rev3": "2315",
+  "note": ""
+ },
+ {
+  "rev2": "2320",
+  "rev3": "2320",
+  "note": ""
+ },
+ {
+  "rev2": "2331",
+  "rev3": "2331",
+  "note": ""
+ },
+ {
+  "rev2": "2332",
+  "rev3": "2332",
+  "note": ""
+ },
+ {
+  "rev2": "2341",
+  "rev3": "2341",
+  "note": ""
+ },
+ {
+  "rev2": "2342",
+  "rev3": "2342",
+  "note": ""
+ },
+ {
+  "rev2": "2343",
+  "rev3": "2343",
+  "note": ""
+ },
+ {
+  "rev2": "2344",
+  "rev3": "2344",
+  "note": ""
+ },
+ {
+  "rev2": "2349",
+  "rev3": "2345",
+  "note": ""
+ },
+ {
+  "rev2": "2351",
+  "rev3": "2351",
+  "note": ""
+ },
+ {
+  "rev2": "2352",
+  "rev3": "2352",
+  "note": ""
+ },
+ {
+  "rev2": "2361",
+  "rev3": "2361",
+  "note": ""
+ },
+ {
+  "rev2": "2362",
+  "rev3": "2362",
+  "note": ""
+ },
+ {
+  "rev2": "2363",
+  "rev3": "2363",
+  "note": ""
+ },
+ {
+  "rev2": "2364",
+  "rev3": "2364",
+  "note": ""
+ },
+ {
+  "rev2": "2365",
+  "rev3": "2365",
+  "note": ""
+ },
+ {
+  "rev2": "2369",
+  "rev3": "2366",
+  "note": ""
+ },
+ {
+  "rev2": "2370",
+  "rev3": "2370",
+  "note": ""
+ },
+ {
+  "rev2": "2391",
+  "rev3": "2391",
+  "note": ""
+ },
+ {
+  "rev2": "2399",
+  "rev3": "2399",
+  "note": ""
+ },
+ {
+  "rev2": "2410",
+  "rev3": "2410",
+  "note": ""
+ },
+ {
+  "rev2": "2420",
+  "rev3": "2420",
+  "note": ""
+ },
+ {
+  "rev2": "2431",
+  "rev3": "2431",
+  "note": ""
+ },
+ {
+  "rev2": "2432",
+  "rev3": "2432",
+  "note": ""
+ },
+ {
+  "rev2": "2433",
+  "rev3": "2433",
+  "note": ""
+ },
+ {
+  "rev2": "2434",
+  "rev3": "2434",
+  "note": ""
+ },
+ {
+  "rev2": "2441",
+  "rev3": "2441",
+  "note": ""
+ },
+ {
+  "rev2": "2442",
+  "rev3": "2442",
+  "note": ""
+ },
+ {
+  "rev2": "2443",
+  "rev3": "2443",
+  "note": ""
+ },
+ {
+  "rev2": "2444",
+  "rev3": "2444",
+  "note": ""
+ },
+ {
+  "rev2": "2445",
+  "rev3": "2445",
+  "note": ""
+ },
+ {
+  "rev2": "2446",
+  "rev3": "2446",
+  "note": ""
+ },
+ {
+  "rev2": "2451",
+  "rev3": "2451",
+  "note": ""
+ },
+ {
+  "rev2": "2452",
+  "rev3": "2452",
+  "note": ""
+ },
+ {
+  "rev2": "2453",
+  "rev3": "2453",
+  "note": "= (excluzând fabricarea pieselor turnate din zinc)"
+ },
+ {
+  "rev2": "2453",
+  "rev3": "2454",
+  "note": "Fabricarea pieselor turnate din zinc"
+ },
+ {
+  "rev2": "2454",
+  "rev3": "2454",
+  "note": ""
+ },
+ {
+  "rev2": "2511",
+  "rev3": "2511",
+  "note": "= 5 5"
+ },
+ {
+  "rev2": "2512",
+  "rev3": "2512",
+  "note": ""
+ },
+ {
+  "rev2": "2521",
+  "rev3": "2521",
+  "note": ""
+ },
+ {
+  "rev2": "2529",
+  "rev3": "2522",
+  "note": ""
+ },
+ {
+  "rev2": "2530",
+  "rev3": "2521",
+  "note": ""
+ },
+ {
+  "rev2": "2540",
+  "rev3": "2530",
+  "note": ""
+ },
+ {
+  "rev2": "2550",
+  "rev3": "2540",
+  "note": ""
+ },
+ {
+  "rev2": "2561",
+  "rev3": "2551",
+  "note": "Activități de acoperire a metalelor"
+ },
+ {
+  "rev2": "2561",
+  "rev3": "2552",
+  "note": "Tratamentul termic al metalelor"
+ },
+ {
+  "rev2": "2561",
+  "rev3": "2553",
+  "note": "Activități de debavurarea, sablare, lustruire și gravare a metalelor"
+ },
+ {
+  "rev2": "2562",
+  "rev3": "2553",
+  "note": ""
+ },
+ {
+  "rev2": "2571",
+  "rev3": "2561",
+  "note": ""
+ },
+ {
+  "rev2": "2572",
+  "rev3": "2562",
+  "note": ""
+ },
+ {
+  "rev2": "2573",
+  "rev3": "2563",
+  "note": ""
+ },
+ {
+  "rev2": "2591",
+  "rev3": "2591",
+  "note": ""
+ },
+ {
+  "rev2": "2592",
+  "rev3": "2592",
+  "note": ""
+ },
+ {
+  "rev2": "2593",
+  "rev3": "2593",
+  "note": ""
+ },
+ {
+  "rev2": "2594",
+  "rev3": "2594",
+  "note": ""
+ },
+ {
+  "rev2": "2599",
+  "rev3": "2599",
+  "note": ""
+ },
+ {
+  "rev2": "2611",
+  "rev3": "2612",
+  "note": ""
+ },
+ {
+  "rev2": "2612",
+  "rev3": "2611",
+  "note": ""
+ },
+ {
+  "rev2": "2620",
+  "rev3": "2620",
+  "note": ""
+ },
+ {
+  "rev2": "2630",
+  "rev3": "2630",
+  "note": "= (excluzând fabricarea sistemelor de alarmă împotriva efracţiilor şi de avertizare în caz de incendii, care trimit semnale către o staţie de control)"
+ },
+ {
+  "rev2": "2630",
+  "rev3": "2651",
+  "note": "Fabricarea sistemelor de alarmă împotriva efracțiilor și de avertizare în caz de incendii, care trimit semnale către o stație de control"
+ },
+ {
+  "rev2": "2640",
+  "rev3": "2640",
+  "note": ""
+ },
+ {
+  "rev2": "2651",
+  "rev3": "2651",
+  "note": ""
+ },
+ {
+  "rev2": "2652",
+  "rev3": "2652",
+  "note": ""
+ },
+ {
+  "rev2": "2660",
+  "rev3": "2660",
+  "note": ""
+ },
+ {
+  "rev2": "2670",
+  "rev3": "2670",
+  "note": ""
+ },
+ {
+  "rev2": "2711",
+  "rev3": "2711",
+  "note": "= (excluzând fabricarea de motoare electrice pentru autovehicule)"
+ },
+ {
+  "rev2": "2711",
+  "rev3": "2910",
+  "note": "Fabricarea de motoare electrice pentru autovehicule"
+ },
+ {
+  "rev2": "2712",
+  "rev3": "2711",
+  "note": "Fabricarea de ansambluri pentru pornirea generatoarelor"
+ },
+ {
+  "rev2": "2712",
+  "rev3": "2712",
+  "note": "= (excluzând fabricarea de ansambluri pentru pornirea generatoarelor)"
+ },
+ {
+  "rev2": "2720",
+  "rev3": "2720",
+  "note": ""
+ },
+ {
+  "rev2": "2731",
+  "rev3": "2731",
+  "note": ""
+ },
+ {
+  "rev2": "2732",
+  "rev3": "2732",
+  "note": ""
+ },
+ {
+  "rev2": "2733",
+  "rev3": "2733",
+  "note": ""
+ },
+ {
+  "rev2": "2740",
+  "rev3": "2740",
+  "note": ""
+ },
+ {
+  "rev2": "2751",
+  "rev3": "2751",
+  "note": ""
+ },
+ {
+  "rev2": "2752",
+  "rev3": "2752",
+  "note": ""
+ },
+ {
+  "rev2": "2790",
+  "rev3": "2711",
+  "note": "Fabricarea de invertoare statice si aparate de redresare Fabricarea de invertoare, redresoare și convertizoare"
+ },
+ {
+  "rev2": "2790",
+  "rev3": "2790",
+  "note": "= (excluzând: fabricarea de invertoare statice si aparate de redresare; fabricarea de invertoare, redresoare și convertizoare; fabricarea de module invertoare și pile de combustie, pentru autoturisme; fabricarea țigărilor electronice)"
+ },
+ {
+  "rev2": "2790",
+  "rev3": "2931",
+  "note": "Fabricarea de module invertoare și pile de combustie, pentru autoturisme"
+ },
+ {
+  "rev2": "2790",
+  "rev3": "3299",
+  "note": "Fabricarea țigărilor electronice"
+ },
+ {
+  "rev2": "2811",
+  "rev3": "2811",
+  "note": ""
+ },
+ {
+  "rev2": "2812",
+  "rev3": "2812",
+  "note": ""
+ },
+ {
+  "rev2": "2813",
+  "rev3": "2813",
+  "note": ""
+ },
+ {
+  "rev2": "2814",
+  "rev3": "2814",
+  "note": ""
+ },
+ {
+  "rev2": "2815",
+  "rev3": "2815",
+  "note": ""
+ },
+ {
+  "rev2": "2821",
+  "rev3": "2821",
+  "note": "= 6 6"
+ },
+ {
+  "rev2": "2822",
+  "rev3": "2822",
+  "note": ""
+ },
+ {
+  "rev2": "2823",
+  "rev3": "2823",
+  "note": ""
+ },
+ {
+  "rev2": "2824",
+  "rev3": "2824",
+  "note": ""
+ },
+ {
+  "rev2": "2825",
+  "rev3": "2825",
+  "note": "= (excluzând fabricarea de aparate de aer condiționat pentru autovehicule)"
+ },
+ {
+  "rev2": "2825",
+  "rev3": "2932",
+  "note": "Fabricarea de aparate de aer condiționat pentru autovehicule"
+ },
+ {
+  "rev2": "2829",
+  "rev3": "2829",
+  "note": ""
+ },
+ {
+  "rev2": "2830",
+  "rev3": "2830",
+  "note": ""
+ },
+ {
+  "rev2": "2841",
+  "rev3": "2841",
+  "note": ""
+ },
+ {
+  "rev2": "2849",
+  "rev3": "2790",
+  "note": "Fabricarea mașinilor de electroplacare (galvanizare)"
+ },
+ {
+  "rev2": "2849",
+  "rev3": "2842",
+  "note": "= (excluzând fabricarea mașinilor de electroplacare (galvanizare))"
+ },
+ {
+  "rev2": "2891",
+  "rev3": "2891",
+  "note": ""
+ },
+ {
+  "rev2": "2892",
+  "rev3": "2830",
+  "note": "Fabricarea de tractoare cu șenile"
+ },
+ {
+  "rev2": "2892",
+  "rev3": "2892",
+  "note": "= (excluzând fabricarea de tractoare cu șenile)"
+ },
+ {
+  "rev2": "2893",
+  "rev3": "2893",
+  "note": ""
+ },
+ {
+  "rev2": "2894",
+  "rev3": "2894",
+  "note": ""
+ },
+ {
+  "rev2": "2895",
+  "rev3": "2895",
+  "note": ""
+ },
+ {
+  "rev2": "2896",
+  "rev3": "2896",
+  "note": ""
+ },
+ {
+  "rev2": "2899",
+  "rev3": "2897",
+  "note": "Fabricarea utilajelor care utilizează tehnologia de fabricație aditivă (imprimante 3D) de prelucrare a metalului, materialelor plastice, cauciucului, ipsosului, cimentului, etc,"
+ },
+ {
+  "rev2": "2899",
+  "rev3": "2899",
+  "note": "= (excluzând fabricarea utilajelor care utilizează tehnologia de fabricație aditivă)"
+ },
+ {
+  "rev2": "2910",
+  "rev3": "2910",
+  "note": ""
+ },
+ {
+  "rev2": "2920",
+  "rev3": "2920",
+  "note": ""
+ },
+ {
+  "rev2": "2931",
+  "rev3": "2931",
+  "note": ""
+ },
+ {
+  "rev2": "2932",
+  "rev3": "2932",
+  "note": ""
+ },
+ {
+  "rev2": "3011",
+  "rev3": "3011",
+  "note": "= (excluzând construcția de nave și vase militare)"
+ },
+ {
+  "rev2": "3011",
+  "rev3": "3013",
+  "note": "Construcția de nave și vase militare"
+ },
+ {
+  "rev2": "3012",
+  "rev3": "3012",
+  "note": ""
+ },
+ {
+  "rev2": "3020",
+  "rev3": "3020",
+  "note": ""
+ },
+ {
+  "rev2": "3030",
+  "rev3": "3031",
+  "note": "= (excluzând fabricarea de aeronave și nave spațiale, militare)"
+ },
+ {
+  "rev2": "3030",
+  "rev3": "3032",
+  "note": "Fabricarea de aeronave și nave spațiale, militare"
+ },
+ {
+  "rev2": "3040",
+  "rev3": "3040",
+  "note": "= (excluzând repararea și întreținerea vehiculelor militare de luptă)"
+ },
+ {
+  "rev2": "3040",
+  "rev3": "3318",
+  "note": "Repararea și întreținerea vehiculelor militare de luptă"
+ },
+ {
+  "rev2": "3091",
+  "rev3": "3091",
+  "note": "= (excluzând fabricarea de biciclete cu motor electric auxiliar)"
+ },
+ {
+  "rev2": "3091",
+  "rev3": "3092",
+  "note": "Fabricarea de biciclete cu motor electric auxiliar"
+ },
+ {
+  "rev2": "3092",
+  "rev3": "3092",
+  "note": ""
+ },
+ {
+  "rev2": "3099",
+  "rev3": "3099",
+  "note": ""
+ },
+ {
+  "rev2": "3102",
+  "rev3": "3100",
+  "note": ""
+ },
+ {
+  "rev2": "3211",
+  "rev3": "3211",
+  "note": ""
+ },
+ {
+  "rev2": "3212",
+  "rev3": "3212",
+  "note": ""
+ },
+ {
+  "rev2": "3213",
+  "rev3": "3213",
+  "note": ""
+ },
+ {
+  "rev2": "3220",
+  "rev3": "3220",
+  "note": ""
+ },
+ {
+  "rev2": "3230",
+  "rev3": "3230",
+  "note": "= (excluzând fabricarea de căști de protecție pentru sportivi)"
+ },
+ {
+  "rev2": "3230",
+  "rev3": "3299",
+  "note": "Fabricarea de căști de protecție pentru sportivi"
+ },
+ {
+  "rev2": "3240",
+  "rev3": "3240",
+  "note": ""
+ },
+ {
+  "rev2": "3250",
+  "rev3": "3250",
+  "note": ""
+ },
+ {
+  "rev2": "3291",
+  "rev3": "3291",
+  "note": ""
+ },
+ {
+  "rev2": "3299",
+  "rev3": "3250",
+  "note": "Fabricarea de măști de protecție de unică folosință (măști chirurgicala, măști FFP2, FFP3, etc)"
+ },
+ {
+  "rev2": "3299",
+  "rev3": "3299",
+  "note": "= (excluzând fabricarea de măști de protecție de unică folosință)"
+ },
+ {
+  "rev2": "3311",
+  "rev3": "3311",
+  "note": "= (excluzând repararea și întreținerea cărucioarelor pentru cumpărături)"
+ },
+ {
+  "rev2": "3311",
+  "rev3": "3319",
+  "note": "Repararea și întreținerea cărucioarelor pentru cumpărături 7 7"
+ },
+ {
+  "rev2": "3312",
+  "rev3": "3312",
+  "note": "= (excluzând repararea și întreținerea motoarelor pentru nave și vase, civile (inclusiv motoare electrice))"
+ },
+ {
+  "rev2": "3312",
+  "rev3": "3315",
+  "note": "Repararea și întreținerea motoarelor pentru nave și vase, civile (inclusiv motoare electrice)"
+ },
+ {
+  "rev2": "3313",
+  "rev3": "3313",
+  "note": ""
+ },
+ {
+  "rev2": "3314",
+  "rev3": "3314",
+  "note": ""
+ },
+ {
+  "rev2": "3315",
+  "rev3": "3315",
+  "note": "= (excluzând repararea și întreținerea navelor și vaselor, militare (inclusiv a motoarelor pentru acestea))"
+ },
+ {
+  "rev2": "3315",
+  "rev3": "3318",
+  "note": "Repararea și întreținerea navelor și vaselor, militare (inclusiv a motoarelor pentru acestea)"
+ },
+ {
+  "rev2": "3316",
+  "rev3": "3316",
+  "note": "= (excluzând repararea și întreținerea aeronavelor și navelor spațiale, militare (inclusiv a motoarelor pentru acestea))"
+ },
+ {
+  "rev2": "3316",
+  "rev3": "3318",
+  "note": "Repararea și întreținerea aeronavelor și navelor spațiale, militare (inclusiv a motoarelor pentru acestea)"
+ },
+ {
+  "rev2": "3317",
+  "rev3": "3317",
+  "note": ""
+ },
+ {
+  "rev2": "3319",
+  "rev3": "3319",
+  "note": "= (excluzând restaurarea orgilor și a altor instrumente muzicale istorice)"
+ },
+ {
+  "rev2": "3319",
+  "rev3": "9130",
+  "note": "Restaurarea orgilor și a altor instrumente muzicale istorice"
+ },
+ {
+  "rev2": "3320",
+  "rev3": "3320",
+  "note": ""
+ },
+ {
+  "rev2": "3511",
+  "rev3": "3511",
+  "note": "Activitățí de producere de energie electrică din surse neregenerabile, de ex. gaze naturale, cărbune și alți combustibili fosili și din surse neregenerabile fără emisii(ex. nuclear)"
+ },
+ {
+  "rev2": "3511",
+  "rev3": "3512",
+  "note": "Activitățí de producere de energie electrică din surse regenerabile, de ex. biocombustibili gazoși, hidroenergie, energie eoliană on-shore și offshore, energie solară fotovoltaică și termică, geotermală și energie generată de maree și de valurile oceanului"
+ },
+ {
+  "rev2": "3512",
+  "rev3": "3513",
+  "note": ""
+ },
+ {
+  "rev2": "3513",
+  "rev3": "3514",
+  "note": ""
+ },
+ {
+  "rev2": "3514",
+  "rev3": "3515",
+  "note": "= (excluzând depozitarea energiei electrice și activitățile agenților și brokerilor din domeniul energiei)"
+ },
+ {
+  "rev2": "3514",
+  "rev3": "3516",
+  "note": "Conversia energiei electrice într-o formă de energie, care poate fi stocată, stocarea acestei forme de energie și reconversia ulterioară a unei astfel de energii în energie electrică; Distribuția energiei electrice stocate în rețelele/rețelele electrice"
+ },
+ {
+  "rev2": "3514",
+  "rev3": "3540",
+  "note": "Activități ale brokerilor sau agenților din domeniul energiei electrice, care intermediază vânzarea electricității prin sisteme de distribuție a acesteia, sisteme administrate de alții"
+ },
+ {
+  "rev2": "3521",
+  "rev3": "3521",
+  "note": ""
+ },
+ {
+  "rev2": "3522",
+  "rev3": "3522",
+  "note": ""
+ },
+ {
+  "rev2": "3523",
+  "rev3": "3523",
+  "note": "= (excluzând activitățile brokerilor sau agenților care intermediază vânzarea combustibililor gazoși prin sisteme de distribuție administrate de alții)"
+ },
+ {
+  "rev2": "3523",
+  "rev3": "3540",
+  "note": "Activități ale brokerilor sau agenților care intermediază vânzarea combustibililor gazoși prin sisteme de distribuție administrate de alții"
+ },
+ {
+  "rev2": "3530",
+  "rev3": "3530",
+  "note": ""
+ },
+ {
+  "rev2": "3600",
+  "rev3": "3600",
+  "note": ""
+ },
+ {
+  "rev2": "3700",
+  "rev3": "3700",
+  "note": ""
+ },
+ {
+  "rev2": "3811",
+  "rev3": "3811",
+  "note": ""
+ },
+ {
+  "rev2": "3812",
+  "rev3": "3812",
+  "note": ""
+ },
+ {
+  "rev2": "3821",
+  "rev3": "3822",
+  "note": "Tratarea deșeurilor pentru valorificare energetică, transformarea materialelor reziduale în căldură sau electricitate utilizabilă, printr-o varietate de procese (inclusiv prin incinerare)"
+ },
+ {
+  "rev2": "3821",
+  "rev3": "3823",
+  "note": "Prepararea nămolului din deșeurile orășenești, utilizat pentru tratarea terenurilor agricole sau îmbunătățirea ecologică"
+ },
+ {
+  "rev2": "3821",
+  "rev3": "3831",
+  "note": "Eliminarea (inclusiv tratarea înainte de eliminare) deșeurilor prin ardere sau tratamente termice, fără producție de energie"
+ },
+ {
+  "rev2": "3821",
+  "rev3": "3832",
+  "note": "Eliminarea (inclusiv tratarea înainte de eliminare) deșeurilor nepericuloase, indiferent dacă deșeurile sunt solide sau nu, pe teren (adică subteran) sau în instalații sau locuri de depozitare permanente a deșeurilor Exploatarea gropilor de gunoi pentru eliminarea deseurilor Eliminarea subproduselor de origine animală în gropile de gunoi"
+ },
+ {
+  "rev2": "3821",
+  "rev3": "3833",
+  "note": "Deversarea/eliberarea deșeurilor lichide în mări/oceane sau alte ape, inclusiv inserarea în fundul mării Injectarea deșeurilor pompabile în puțuri sau depozite naturale"
+ },
+ {
+  "rev2": "3822",
+  "rev3": "3822",
+  "note": "Tratarea deșeurilor pentru valorificare energetică, transformarea materialelor reziduale în căldură sau electricitate utilizabilă, printr-o varietate de procese (inclusiv prin incinerare)"
+ },
+ {
+  "rev2": "3822",
+  "rev3": "3823",
+  "note": "Prepararea nămolului din deșeurile orășenești, utilizat pentru tratarea terenurilor agricole sau îmbunătățirea ecologică"
+ },
+ {
+  "rev2": "3822",
+  "rev3": "3831",
+  "note": "Eliminarea (inclusiv tratarea înainte de eliminare) deșeurilor prin ardere sau tratamente termice, fără producție de energie"
+ },
+ {
+  "rev2": "3822",
+  "rev3": "3832",
+  "note": "Eliminarea (inclusiv tratarea înainte de eliminare) deșeurilor periculoase, indiferent dacă deșeurile sunt solide sau nu, pe teren (adică subteran) sau în instalații sau locuri de depozitare permanente a deșeurilor Exploatarea gropilor de gunoi pentru eliminarea deșeurilor 8 8 Eliminarea subproduselor de origine animală în gropile de gunoi"
+ },
+ {
+  "rev2": "3822",
+  "rev3": "3833",
+  "note": "Deversarea/eliberarea deșeurilor lichide în mări/oceane sau alte ape, inclusiv inserarea în fundul mării Injectarea deșeurilor pompabile în puțuri sau depozite naturale"
+ },
+ {
+  "rev2": "3831",
+  "rev3": "3821",
+  "note": ""
+ },
+ {
+  "rev2": "3832",
+  "rev3": "2016",
+  "note": "- Fabricarea de pulberi, granule sau fulgi de material plastic prin amestecarea sau transformarea rășinilor din deșeuri de material plastic recuperate - Fabricarea de material plastic reciclat sub formă de fulgi sau granule de plastic pe bază de deșeuri de plastic pre-tratate în urma operațiunii de recuperare a materialului plastic"
+ },
+ {
+  "rev2": "3832",
+  "rev3": "3821",
+  "note": "= (excluzând fabricarea de pulberi, granule sau fulgi de material plastic)"
+ },
+ {
+  "rev2": "3900",
+  "rev3": "3900",
+  "note": ""
+ },
+ {
+  "rev2": "4110",
+  "rev3": "6812",
+  "note": ""
+ },
+ {
+  "rev2": "4120",
+  "rev3": "4100",
+  "note": "= (excluzând lucrările de restaurare a clădirilor istorice)"
+ },
+ {
+  "rev2": "4120",
+  "rev3": "9130",
+  "note": "Lucrări de restaurare a clădirilor istorice"
+ },
+ {
+  "rev2": "4211",
+  "rev3": "4211",
+  "note": "= (excluzând: - instalarea de bariere de protecție, semne de circulație etc.; - lucrări de marcare a drumurilor si alte marcaje)"
+ },
+ {
+  "rev2": "4211",
+  "rev3": "4350",
+  "note": "Activități de construcții specializate într-un aspect comun în inginerie civilă, necesitând calificare sau echipament specializat: - instalarea de bariere de protecție, semne de circulație etc. - lucrări de marcare a drumurilor si alte marcaje"
+ },
+ {
+  "rev2": "4212",
+  "rev3": "4212",
+  "note": ""
+ },
+ {
+  "rev2": "4213",
+  "rev3": "4213",
+  "note": ""
+ },
+ {
+  "rev2": "4221",
+  "rev3": "4221",
+  "note": ""
+ },
+ {
+  "rev2": "4222",
+  "rev3": "4222",
+  "note": ""
+ },
+ {
+  "rev2": "4291",
+  "rev3": "4291",
+  "note": ""
+ },
+ {
+  "rev2": "4299",
+  "rev3": "4299",
+  "note": ""
+ },
+ {
+  "rev2": "4311",
+  "rev3": "4311",
+  "note": ""
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0510",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0520",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0710",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0721",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0729",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0811",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0812",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0891",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0892",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0893",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale."
+ },
+ {
+  "rev2": "4312",
+  "rev3": "0899",
+  "note": "Îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral. Lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale. 9 9"
+ },
+ {
+  "rev2": "4312",
+  "rev3": "4312",
+  "note": "= (excluzând: îndepărtarea stratului de sol, rocă și alte materiale care acoperă un depozit mineral; lucrări de dezvoltare și pregătire a șantierelor miniere, cu excepția amplasamentelor în al căror subsol se află zăcăminte de petrol și de gaze naturale.)"
+ },
+ {
+  "rev2": "4313",
+  "rev3": "4313",
+  "note": ""
+ },
+ {
+  "rev2": "4321",
+  "rev3": "4321",
+  "note": ""
+ },
+ {
+  "rev2": "4322",
+  "rev3": "4322",
+  "note": ""
+ },
+ {
+  "rev2": "4329",
+  "rev3": "4323",
+  "note": "Lucrări de izolații termice (inclusiv antifoc), fonice sau antivibrații"
+ },
+ {
+  "rev2": "4329",
+  "rev3": "4324",
+  "note": "= (excluzând lucrări de izolații termice (inclusiv antifoc), fonice sau antivibraţii)"
+ },
+ {
+  "rev2": "4331",
+  "rev3": "4331",
+  "note": ""
+ },
+ {
+  "rev2": "4332",
+  "rev3": "4332",
+  "note": ""
+ },
+ {
+  "rev2": "4333",
+  "rev3": "4333",
+  "note": ""
+ },
+ {
+  "rev2": "4334",
+  "rev3": "4334",
+  "note": ""
+ },
+ {
+  "rev2": "4339",
+  "rev3": "4335",
+  "note": "- montaj elemente prefabricate din tablă, piese din otel, profile etc. - placări pentru pereți exteriori - ridicarea structurilor metalice pentru finalizarea si finisarea clădirii - alte lucrări de completare si finisare a clădirilor n.c.a."
+ },
+ {
+  "rev2": "4339",
+  "rev3": "8122",
+  "note": "Lucrări de curățare a clădirilor noi după finalizarea lucrărilor de construcții"
+ },
+ {
+  "rev2": "4391",
+  "rev3": "4341",
+  "note": ""
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4299",
+  "note": "Lucrări de construire a piscinelor"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4322",
+  "note": "Lucrări de construire a sobelor pentru încălzire"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4323",
+  "note": "Lucrări de hidroizolații"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4335",
+  "note": "Lucrări de ridicare a pereților cortină"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4342",
+  "note": "Activități de construcții specializate într-un domeniu comun în construcția de clădiri, necesitând calificare sau echipament specializat: - construcții de fundații pentru clădiri, inclusiv fixarea pilonilor; - îndepărtarea igrasiei din clădiri; - înălțarea elementelor de structură pentru clădiri, din oțel, fabricate de terți; - înălțarea coșurilor și a cuptoarelor industriale."
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4350",
+  "note": "Activități de construcții specializate într-un domeniu comun în construcții de geniu civil, necesitând calificare sau echipament specializat: - construcții de fundații pentru obiective de geniu civil, inclusiv fixarea pilonilor; - înălțarea elementelor de structură pentru obiective de geniu civil, din oțel, fabricate de terți; - forarea puțurilor; - construirea pereților de protecție fonică (ex. de-a lungul drumurilor); - montarea mobilierului stradal; - instalarea piscinelor prefabricate - construirea pereților de protecție din piatră și instalarea de elementelor de protecție împotriva căderii pietrelor;"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4391",
+  "note": "Lucrări de zidărie din cărămidă și piatră"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "4399",
+  "note": "Activități de construcții specializate într-un domeniu comun diferitelor tipuri de structuri, necesitând calificare sau echipament specializat - fasonarea oțelului, pe șantier - înălțarea și demontarea schelelor și platformelor de lucru - montarea echipamentelor de siguranță pentru șantier - lucrări ce impun cerințe speciale care necesită abilități de cățărare și utilizarea de echipament special, de exemplu pentru lucrul la înălțime pe structuri înalte - închirierea macaralelor și echipamentelor de construcții, de utilizare generală, cu operatori - repararea/restaurarea elementelor structurale din beton (ex. grinzi, stâlpi) - activități de montaj a panourilor sau coloanelor (structuri cilindrice) publicitare - lucrări de betonare"
+ },
+ {
+  "rev2": "4399",
+  "rev3": "8122",
+  "note": "Curățarea clădirilor la exterior cu abur, prin sablare și metode similare"
+ },
+ {
+  "rev2": "4511",
+  "rev3": "4618",
+  "note": "Activități ale agenților implicați în comerțul cu ridicata al autoturismelor și autovehiculelor ușoare (inclusiv vehicule electrice)"
+ },
+ {
+  "rev2": "4511",
+  "rev3": "4671",
+  "note": "Vânzarea cu ridicata al autovehiculelor noi și uzate (inclusiv vehicule electrice): -autovehicule de pasageri, inclusiv autovehicule de pasageri specializate ca ambulanțe și microbuze, etc. (sub 3,5 tone); - autovehicule de teren ca jeep-urile (sub 3,5 tone)"
+ },
+ {
+  "rev2": "4511",
+  "rev3": "4781",
+  "note": "Vânzarea cu amănuntul al autovehiculelor noi și uzate (inclusiv vehicule electrice): - autovehicule de pasageri; - autovehicule de teren ca jeep-urile (sub 3,5 tone). 10 10"
+ },
+ {
+  "rev2": "4519",
+  "rev3": "4618",
+  "note": "Activități ale agenților implicați în comerțul cu ridicata al camioanelor, remorcilor, semi-remorcilor și vehicule pentru camping (inclusiv vehicule electrice)"
+ },
+ {
+  "rev2": "4519",
+  "rev3": "4671",
+  "note": "Activități ale agenților implicați în comerțul cu ridicata al camioanelor, remorcilor, semi-remorcilor și vehicule pentru camping (inclusiv vehicule electrice) - camioane, remorci și semi-remorci; - vehicule pentru camping ca rulote și case pe roți; - autovehicule de teren."
+ },
+ {
+  "rev2": "4519",
+  "rev3": "4781",
+  "note": "Vânzarea cu amănuntul al vehiculelor noi și a celor uzate (inclusiv vehicule electrice): - vehicule pentru camping ca rulote și case pe roți; - remorci pentru autoturisme."
+ },
+ {
+  "rev2": "4520",
+  "rev3": "9531",
+  "note": "Repararea și întreținerea autovehiculelor: - reparații mecanice; - reparații electrice; - repararea sistemelor electronice de injecție; - întreținerea uzuală (curentă); - reparații ale caroseriei; - reparații ale unor piese ale motorului; - spălare, lustruire etc.; - vopsire; - repararea parbrizelor; - repararea scaunelor din autovehicule; - repararea sistemului mecatronic şi servicii de diagnosticare; - repararea, montarea sau înlocuirea anvelopelor și a camerelor de aer; - tratamentul anti-rugină; - instalarea de piese și accesorii opționale care nu fac parte din procesul de fabricație; - repararea și întreținerea vehiculelor amfibii civile; - repararea și întreținerea vehiculelor pentru camping ca rulote și case pe roți."
+ },
+ {
+  "rev2": "4520",
+  "rev3": "9540",
+  "note": "Servicii de intermediere pentru repararea și întreținerea autovehiculelor"
+ },
+ {
+  "rev2": "4531",
+  "rev3": "4618",
+  "note": "Activități ale agenților implicați în comerțul cu ridicata de piese și accesorii pentru autovehicule"
+ },
+ {
+  "rev2": "4531",
+  "rev3": "4672",
+  "note": "Vânzarea cu ridicata de piese și accesorii (noi sau uzate) pentru autovehicule"
+ },
+ {
+  "rev2": "4532",
+  "rev3": "4782",
+  "note": ""
+ },
+ {
+  "rev2": "4540",
+  "rev3": "4618",
+  "note": "Activități ale agenților implicați în comerțul cu ridicata al motocicletelor. Activități ale agenților implicați în comerțul cu ridicata al pieselor și accesoriilor pentru motociclete."
+ },
+ {
+  "rev2": "4540",
+  "rev3": "4673",
+  "note": "Vânzarea cu ridicata a motocicletelor (inclusiv mopede) noi și uzate. Vânzări cu ridicata a părților și accesoriilor pentru motociclete. Vânzarea cu ridicata a echipamentului de protecție pentru motocicliști."
+ },
+ {
+  "rev2": "4540",
+  "rev3": "4783",
+  "note": "Vânzarea cu amănuntul a motocicletelor (inclusiv mopede) noi și uzate. Vânzări cu amănuntul a părților și accesoriilor pentru motociclete, noi sau uzate. Vânzarea cu amănuntul a echipamentului pentru motocicliști ex. căști și articole de îmbrăcăminte specifice."
+ },
+ {
+  "rev2": "4540",
+  "rev3": "9532",
+  "note": "Repararea și întreținerea motocicletelor: - reparații ale caroseriei motocicletelor; - vopsirea motocicletelor; - spălarea, lustruirea etc. motocicletelor;"
+ },
+ {
+  "rev2": "4540",
+  "rev3": "9540",
+  "note": "Servicii de intermediere pentru repararea și întreținerea motocicletelor."
+ },
+ {
+  "rev2": "4611",
+  "rev3": "4611",
+  "note": ""
+ },
+ {
+  "rev2": "4612",
+  "rev3": "4612",
+  "note": ""
+ },
+ {
+  "rev2": "4613",
+  "rev3": "4613",
+  "note": ""
+ },
+ {
+  "rev2": "4614",
+  "rev3": "4614",
+  "note": ""
+ },
+ {
+  "rev2": "4615",
+  "rev3": "4615",
+  "note": ""
+ },
+ {
+  "rev2": "4616",
+  "rev3": "4616",
+  "note": ""
+ },
+ {
+  "rev2": "4617",
+  "rev3": "4617",
+  "note": ""
+ },
+ {
+  "rev2": "4618",
+  "rev3": "4618",
+  "note": ""
+ },
+ {
+  "rev2": "4619",
+  "rev3": "4619",
+  "note": ""
+ },
+ {
+  "rev2": "4621",
+  "rev3": "4621",
+  "note": ""
+ },
+ {
+  "rev2": "4622",
+  "rev3": "4622",
+  "note": ""
+ },
+ {
+  "rev2": "4623",
+  "rev3": "4623",
+  "note": ""
+ },
+ {
+  "rev2": "4624",
+  "rev3": "4624",
+  "note": ""
+ },
+ {
+  "rev2": "4631",
+  "rev3": "4631",
+  "note": ""
+ },
+ {
+  "rev2": "4632",
+  "rev3": "4632",
+  "note": ""
+ },
+ {
+  "rev2": "4633",
+  "rev3": "4633",
+  "note": "= 11 11"
+ },
+ {
+  "rev2": "4634",
+  "rev3": "4634",
+  "note": ""
+ },
+ {
+  "rev2": "4635",
+  "rev3": "4635",
+  "note": ""
+ },
+ {
+  "rev2": "4636",
+  "rev3": "4636",
+  "note": ""
+ },
+ {
+  "rev2": "4637",
+  "rev3": "4637",
+  "note": ""
+ },
+ {
+  "rev2": "4638",
+  "rev3": "4632",
+  "note": "Vânzarea cu ridicata a peștelui și produselor din pește. Vânzarea cu ridicata a fructelor de mare. Vânzarea cu ridicata a produselor din carne afumate, al burții și al cărnii sărate. Vânzarea cu ridicata a melcilor. Vânzarea cu ridicata a algelor."
+ },
+ {
+  "rev2": "4638",
+  "rev3": "4638",
+  "note": "Vânzarea cu ridicata cu sare, oțet, făină, drojdie, miere. Vânzarea cu ridicata a mâncărurilor gata preparate. Vânzarea cu ridicata a preparatelor alimentare omogenizate și a alimentelor dietetice. Vânzarea cu ridicata a hranei pentru animale de companie. Vânzarea cu ridicata a suplimentelor alimentare pentru consum uman. Vânzarea cu ridicata a insectelor, de ex. greieri, care sunt procesați și gata de consum."
+ },
+ {
+  "rev2": "4639",
+  "rev3": "4639",
+  "note": ""
+ },
+ {
+  "rev2": "4641",
+  "rev3": "4641",
+  "note": ""
+ },
+ {
+  "rev2": "4642",
+  "rev3": "4642",
+  "note": ""
+ },
+ {
+  "rev2": "4643",
+  "rev3": "4643",
+  "note": "= (excluzând vânzarea cu ridicata a suporturilor pentru înregistrări, a bateriilor și acumulatorilor de uz casnic)"
+ },
+ {
+  "rev2": "4643",
+  "rev3": "4649",
+  "note": "Vânzarea cu ridicata a suporturilor pentru înregistrări"
+ },
+ {
+  "rev2": "4643",
+  "rev3": "4664",
+  "note": "Vânzarea cu ridicata a bateriilor și acumulatorilor de uz casnic"
+ },
+ {
+  "rev2": "4644",
+  "rev3": "4644",
+  "note": ""
+ },
+ {
+  "rev2": "4645",
+  "rev3": "4645",
+  "note": ""
+ },
+ {
+  "rev2": "4646",
+  "rev3": "4646",
+  "note": ""
+ },
+ {
+  "rev2": "4647",
+  "rev3": "4647",
+  "note": ""
+ },
+ {
+  "rev2": "4648",
+  "rev3": "4648",
+  "note": ""
+ },
+ {
+  "rev2": "4649",
+  "rev3": "4649",
+  "note": ""
+ },
+ {
+  "rev2": "4651",
+  "rev3": "4650",
+  "note": ""
+ },
+ {
+  "rev2": "4661",
+  "rev3": "4661",
+  "note": ""
+ },
+ {
+  "rev2": "4662",
+  "rev3": "4662",
+  "note": ""
+ },
+ {
+  "rev2": "4663",
+  "rev3": "4663",
+  "note": ""
+ },
+ {
+  "rev2": "4664",
+  "rev3": "4664",
+  "note": ""
+ },
+ {
+  "rev2": "4665",
+  "rev3": "4647",
+  "note": ""
+ },
+ {
+  "rev2": "4666",
+  "rev3": "4650",
+  "note": ""
+ },
+ {
+  "rev2": "4669",
+  "rev3": "4664",
+  "note": ""
+ },
+ {
+  "rev2": "4671",
+  "rev3": "4681",
+  "note": ""
+ },
+ {
+  "rev2": "4672",
+  "rev3": "4682",
+  "note": ""
+ },
+ {
+  "rev2": "4673",
+  "rev3": "4683",
+  "note": ""
+ },
+ {
+  "rev2": "4674",
+  "rev3": "4684",
+  "note": ""
+ },
+ {
+  "rev2": "4675",
+  "rev3": "4685",
+  "note": ""
+ },
+ {
+  "rev2": "4676",
+  "rev3": "4686",
+  "note": ""
+ },
+ {
+  "rev2": "4677",
+  "rev3": "4687",
+  "note": ""
+ },
+ {
+  "rev2": "4690",
+  "rev3": "4690",
+  "note": ""
+ },
+ {
+  "rev2": "4711",
+  "rev3": "4711",
+  "note": "= (excluzând intermedierile în comerțul cu amănuntul nespecializat, cu vânzare predominantă de produse alimentare, băuturi şi tutun)"
+ },
+ {
+  "rev2": "4711",
+  "rev3": "4791",
+  "note": "Servicii de intermediere pentru comerțul cu amănuntul nespecializat"
+ },
+ {
+  "rev2": "4719",
+  "rev3": "4712",
+  "note": "= (excluzând intermedierile în comerțul cu amănuntul nespecializat, cu vânzare predominantă de produse nealimentare)"
+ },
+ {
+  "rev2": "4719",
+  "rev3": "4791",
+  "note": "Servicii de intermediere pentru comerțul cu amănuntul nespecializat"
+ },
+ {
+  "rev2": "4721",
+  "rev3": "4721",
+  "note": ""
+ },
+ {
+  "rev2": "4722",
+  "rev3": "4722",
+  "note": ""
+ },
+ {
+  "rev2": "4723",
+  "rev3": "4723",
+  "note": ""
+ },
+ {
+  "rev2": "4724",
+  "rev3": "4724",
+  "note": ""
+ },
+ {
+  "rev2": "4725",
+  "rev3": "4725",
+  "note": "= 12 12"
+ },
+ {
+  "rev2": "4726",
+  "rev3": "4726",
+  "note": ""
+ },
+ {
+  "rev2": "4729",
+  "rev3": "4727",
+  "note": ""
+ },
+ {
+  "rev2": "4730",
+  "rev3": "4730",
+  "note": ""
+ },
+ {
+  "rev2": "4742",
+  "rev3": "4740",
+  "note": ""
+ },
+ {
+  "rev2": "4751",
+  "rev3": "4751",
+  "note": ""
+ },
+ {
+  "rev2": "4752",
+  "rev3": "4752",
+  "note": ""
+ },
+ {
+  "rev2": "4753",
+  "rev3": "4753",
+  "note": ""
+ },
+ {
+  "rev2": "4754",
+  "rev3": "4754",
+  "note": ""
+ },
+ {
+  "rev2": "4759",
+  "rev3": "4755",
+  "note": "= (excluzând vânzarea cu amănuntul a instrumentelor muzicale, a partiturilor și a accesoriilor ex. corzi, stative pentru partituri, metronoame)"
+ },
+ {
+  "rev2": "4759",
+  "rev3": "4769",
+  "note": "Vânzarea cu amănuntul a instrumentelor muzicale, a partiturilor și a accesoriilor ex. corzi, stative pentru partituri, metronoame"
+ },
+ {
+  "rev2": "4761",
+  "rev3": "4761",
+  "note": ""
+ },
+ {
+  "rev2": "4762",
+  "rev3": "4762",
+  "note": ""
+ },
+ {
+  "rev2": "4763",
+  "rev3": "4769",
+  "note": ""
+ },
+ {
+  "rev2": "4764",
+  "rev3": "4763",
+  "note": ""
+ },
+ {
+  "rev2": "4765",
+  "rev3": "4764",
+  "note": ""
+ },
+ {
+  "rev2": "4771",
+  "rev3": "4771",
+  "note": ""
+ },
+ {
+  "rev2": "4772",
+  "rev3": "4772",
+  "note": ""
+ },
+ {
+  "rev2": "4773",
+  "rev3": "4773",
+  "note": ""
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4774",
+  "note": ""
+ },
+ {
+  "rev2": "4775",
+  "rev3": "4775",
+  "note": ""
+ },
+ {
+  "rev2": "4776",
+  "rev3": "4776",
+  "note": ""
+ },
+ {
+  "rev2": "4777",
+  "rev3": "4777",
+  "note": ""
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4755",
+  "note": "Vânzarea cu amănuntul a cărucioarelor pentru copii, a premergătoarelor, a hamurilor și a scaunelor auto pentru copii."
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4763",
+  "note": "Vânzarea cu amănuntul a armelor și munițiilor"
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4769",
+  "note": "Vânzarea cu amănuntul a timbrelor și monedelor. Servicii de comerț cu amănuntul ale galeriilor comerciale de artă. Vânzarea cu amănuntul a materialelor pentru pictură/desen artistic ex. suporturi pentru picturi, culori, pensule, cărbune pentru desen."
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4774",
+  "note": "Vânzarea cu amănuntul a ochelarilor de vedere, a lentilelor și a ochelarilor de soare"
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4778",
+  "note": "Vânzarea cu amănuntul a: - echipamentelor fotografice și de precizie; - echipamentelor optice (excluzând ochelarii) cum sunt telescoapele, microscoapele și binoclurile; - combustibililor, gazului îmbuteliat, cărbunilor și lemnelor, peleților; - articolelor pentru împachetat; - articolelor funerare; - imitațiilor de bijuterii; - produselor de curățenie (detergenți, bureți etc.); - suvenirurilor, articolelor de artizanat și religioase; - florilor și plantelor artificiale; - produselor nealimentare, n.c.a."
+ },
+ {
+  "rev2": "4779",
+  "rev3": "4779",
+  "note": "= (excluzând activitățile caselor de licitație pentru vânzarea cu amănuntul specializată și nespecializată)"
+ },
+ {
+  "rev2": "4779",
+  "rev3": "4791",
+  "note": "Activități ale caselor de licitație pentru vânzarea cu amănuntul nespecializată"
+ },
+ {
+  "rev2": "4779",
+  "rev3": "4792",
+  "note": "Activități ale caselor de licitație pentru vânzarea cu amănuntul specializată"
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4711",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a unei mari diversități de produse, cu vânzare predominantă de produse alimentare, băuturi și tutun"
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4721",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de fructe şi legume proaspete (inclusiv tăiate). Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de fructe şi legume conservate."
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4722",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de carne și produse din carne (inclusiv carne de pasăre). Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a produselor din carne afumate, al burții și al cărnii sărate. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a melcilor. 13 13"
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4723",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a peștelui și produselor din pește, a fructelor de mare și a produselor din acestea. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a algelor."
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4724",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a pâinii și chiflelor, din aluaturi gata preparate."
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4725",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de băuturi alcoolice sau nealcoolice (nedestinate consumul în imediat)."
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4726",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a tutunului și produselor din tutun Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a produselor pentru fumători ex. brichete, pipe, mașini de rulat țigări etc. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a țigărilor electronice și a consumabilelor pentru acestea (lichid, arome)."
+ },
+ {
+  "rev2": "4781",
+  "rev3": "4727",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de ouă și produse lactate. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de cafea, ceai, ulei, făină, zahăr, paste, etc. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a altor produse alimentare, n.c.a. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a mâncărurilor gata preparate (nedestinate consumul în imediat). Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a preparatelor alimentare omogenizate și a alimentelor dietetice."
+ },
+ {
+  "rev2": "4782",
+  "rev3": "4751",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a: - țesăturilor; - firelor de tricotat; - materialelor de bază pentru confecționarea covoarelor, tapiseriilor sau broderiilor; - acelor, aței de cusut, etc.; - prelatelor; - lenjeriei de pat."
+ },
+ {
+  "rev2": "4782",
+  "rev3": "4771",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a: - articolelor de îmbrăcăminte și a lenjeriei de corp; - articolelor din blană; - accesoriilor de îmbrăcăminte, cum ar fi mănuși, cravate, bretele etc."
+ },
+ {
+  "rev2": "4782",
+  "rev3": "4772",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a: - încălțămintei; - articolelor din piele; - accesoriilor de călătorie din piele şi înlocuitori de piele."
+ },
+ {
+  "rev2": "4782",
+  "rev3": "4779",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a: - textilelor second-hand; - îmbrăcămintei second-hand."
+ },
+ {
+  "rev2": "4789",
+  "rev3": "4712",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a unei mari diversități de produse, cu vânzare predominantă de produse nealimentare"
+ },
+ {
+  "rev2": "4789",
+  "rev3": "4740",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de: - calculatoare; - echipamente periferice pentru calculatoare; - console pentru jocuri video; - software de utilizare generală, inclusiv al jocurilor video; - aparate de radio și televizoare; - aparate audio și video; - suporturilor pentru înregistrări; - aparate pentru redarea și înregistrarea CD-urilor, DVD-urilor, etc; - telefoane (fixe, mobile, inteligente) și accesorii pentru telefoane (încărcătoare, handsfree, folii și huse de protecție)."
+ },
+ {
+  "rev2": "4789",
+  "rev3": "4752",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de: - articole de fierărie; - vopsele și lacuri; - sticlă și produse din sticlă; - materiale de construcții, cum sunt cărămizi, lemn, echipament sanitar și de încălzire; - materialelor și echipamentelor de bricolaj; - unelte de mână (inclusiv cu motor); - panouri fotovoltaice și panouri solare pentru încălzire (fără servicii de instalare și/sau mentenanță); - alarme (electrice sau electronice) de incendiu, stingătoare, sisteme de eliminare a fumului, mecanisme de închidere, seifuri și case de bani (fără servicii de instalare și/sau mentenanță pentru produsele enumerate); - uși, ferestre și obloane, din orice material; 14 14 - echipament de grădinărit și mașini de tuns gazonul (indiferent de modul de operare) 15 15 - produse nealimentare, n.c.a."
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4779",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de produse second-hand (cărți, antichități, mobilier, articole gospodărești, etc.)"
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4782",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor de piese și accesorii (noi sau uzate) pentru autovehicule."
+ },
+ {
+  "rev2": "4778",
+  "rev3": "4783",
+  "note": "Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a motocicletelor (inclusiv mopede) noi și uzate. Vânzări cu amănuntul prin intermediul standurilor sau piețelor a părților și accesoriilor pentru motociclete, noi sau uzate. Vânzarea cu amănuntul prin intermediul standurilor sau piețelor a echipamentului pentru motocicliști ex. căști și articole de îmbrăcăminte specifice."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4711",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a unei mari diversități de produse, cu vânzare predominantă de produse alimentare, băuturi și tutun"
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4712",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a unei mari diversități de produse, cu vânzare predominantă de produse nealimentare"
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4721",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de fructe şi legume proaspete (inclusiv tăiate). Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de fructe şi legume conservate."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4722",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de carne și produse din carne (inclusiv carne de pasăre). Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a produselor din carne afumate, al burții și al cărnii sărate. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a melcilor."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4723",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a peștelui și produselor din pește, a fructelor de mare și a produselor din acestea. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a algelor."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4724",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a pâinii și chiflelor, din aluaturi gata preparate."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4725",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de băuturi alcoolice sau nealcoolice (nedestinate consumul în imediat)."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4726",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a tutunului și produselor din tutun Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a produselor pentru fumători ex. brichete, pipe, mașini de rulat țigări etc. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a țigărilor electronice și a consumabilelor pentru acestea (lichid, arome)."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4727",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de ouă și produse lactate. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de cafea, ceai, ulei, făină, zahăr, paste, etc. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a altor produse alimentare, n.c.a. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a mâncărurilor gata preparate (nedestinate consumul în imediat). Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a preparatelor alimentare omogenizate și a alimentelor dietetice."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4740",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de: - calculatoare; - echipamente periferice pentru calculatoare; - console pentru jocuri video; - software de utilizare generală, inclusiv al jocurilor video; - aparate de radio și televizoare; - aparate audio și video; - suporturilor pentru înregistrări; - aparate pentru redarea și înregistrarea CD-urilor, DVD-urilor, etc; - telefoane (fixe, mobile, inteligente) și accesorii pentru telefoane (încărcătoare, handsfree, folii și huse de protecție)."
+ },
+ {
+  "rev2": "4791",
+  "rev3": "4751",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a: - țesăturilor; - firelor de tricotat; - materialelor de bază pentru confecționarea covoarelor, tapiseriilor sau broderiilor; - acelor, aței de cusut, etc.; 16 16 - prelatelor; 17 17 - încălțăminte ortopedică; - cârje și scaune cu rotile; - proteze ortopedice; - gulere și corsete ortopedice; - produse de compresie (genunchiere, cotiere, glezniere, etc); - ochelari de soare;"
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4775",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a articolelor de parfumerie, cosmetică, toaletă și a articolelor de îngrijire personală."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4776",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de: - fertilizatori și produse pentru protecția plantelor; - animale de companie și produse pentru animale de companie; - hrană pentru animale de companie; - produse de toaletă și igienă pentru animale de companie."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4777",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de: - ceasuri și bijuterii; - articole din argint."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4778",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de: - echipamente fotografice și de precizie; - echipamente optice (excluzând ochelarii) cum sunt telescoapele, microscoapele și binoclurile; - combustibili, gaz îmbuteliat, cărbuni și lemne, peleți; - articole pentru împachetat; - articole funerare; - imitații de bijuterii; - produse de curățenie (detergenți, bureți etc.); - suveniruri, articole de artizanat și religioase; - flori și plante artificiale; - produse nealimentare, n.c.a."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4779",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de produse second-hand (cărți, antichități, mobilier, articole gospodărești, etc.)"
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4782",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet de piese și accesorii (noi sau uzate) pentru autovehicule."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4783",
+  "note": "Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a motocicletelor (inclusiv mopede) noi și uzate. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a părților și accesoriilor pentru motociclete, noi sau uzate. Vânzarea cu amănuntul prin intermediul caselor de comenzi sau prin Internet a echipamentului pentru motocicliști ex. căști și articole de îmbrăcăminte specifice."
+ },
+ {
+  "rev2": "4774",
+  "rev3": "4791",
+  "note": "Servicii de intermediere pentru comerţul cu amănuntul prin intermediul caselor de comenzi sau prin Internet"
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4711",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a unei mari diversități de produse, cu vânzare predominantă de produse alimentare, băuturi și tutun"
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4712",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a unei mari diversități de produse, cu vânzare predominantă de produse nealimentare"
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4721",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor de fructe şi legume proaspete (inclusiv tăiate). Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor de fructe şi legume conservate."
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4722",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor de carne și produse din carne (inclusiv carne de pasăre). Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a produselor din carne afumate, al burții și al cărnii sărate. Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a melcilor."
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4723",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a peștelui și produselor din pește, a fructelor de mare și a produselor din acestea. Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a algelor."
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4724",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a pâinii și chiflelor, din aluaturi gata preparate."
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4725",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor de băuturi alcoolice sau nealcoolice (nedestinate consumul în imediat)."
+ },
+ {
+  "rev2": "4799",
+  "rev3": "4726",
+  "note": "Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a tutunului și produselor din tutun 18 18 Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a produselor 19 19 20 20 Vânzarea cu amănuntul efectuată în afara magazinelor, standurilor, chioșcurilor și piețelor a echipamentului pentru motocicliști ex. căști și articole de îmbrăcăminte specifice."
+ },
+ {
+  "rev2": "4910",
+  "rev3": "4911",
+  "note": "Transportul de călători pe calea ferată utilizând materialul rulant feroviar pe rețele de cale ferată. Transportul de călători pe căi ferate în scop turistic. Activitatea de exploatare a vagoanelor de dormit și a vagoanelor restaurant ca operațiune integrată a societăților de transport pe cale ferată."
+ },
+ {
+  "rev2": "4910",
+  "rev3": "4912",
+  "note": "Transportul de călători cu tramvaie, metrou subteran și suspendat etc. Transportul de călători cu funiculare, teleferice etc., dacă fac parte din sistemele de tranzit urban sau suburban. Transportul de călători în scop turistic pe căi ferate ușoare."
+ },
+ {
+  "rev2": "4920",
+  "rev3": "4920",
+  "note": ""
+ },
+ {
+  "rev2": "4931",
+  "rev3": "4911",
+  "note": "Transportul de călători pe calea ferată utilizând materialul rulant feroviar pe rețele de cale ferată."
+ },
+ {
+  "rev2": "4931",
+  "rev3": "4912",
+  "note": "Transportul de călători cu tramvaie, metrou subteran și suspendat, funiculare etc."
+ },
+ {
+  "rev2": "4931",
+  "rev3": "4931",
+  "note": "Transportul rutier de călători, urban sau suburban, cu autobuze, troleibuze și microbuze; transportul este efectuat pe rute prestabilite în mod normal urmând un orar fix, urcarea și coborârea pasagerilor realizându-se în stații fixe. Operarea autobuzelor școlare și a autobuzelor pentru transportul salariaților. Transportul rutier de călători în scop turistic."
+ },
+ {
+  "rev2": "4931",
+  "rev3": "4934",
+  "note": "Transportul de călători pe cablu dacă face parte din sistemele de tranzit urban sau suburban."
+ },
+ {
+  "rev2": "4932",
+  "rev3": "4933",
+  "note": "Servicii de transport cu taxiuri (auto sau moto). Închirieri de autovehicule particulare, cu șofer."
+ },
+ {
+  "rev2": "4932",
+  "rev3": "5232",
+  "note": "Servicii de intermediere pentru transportul cu taxiuri sau pentru închirierea de autovehicule, cu șofer."
+ },
+ {
+  "rev2": "4939",
+  "rev3": "4931",
+  "note": "Transportul rutier de călători, urban/suburban sau la mare distanță, cu autobuze, troleibuze și microbuze, pe bază de grafic. Operarea autobuzelor școlare și a autobuzelor pentru transportul salariaților. Transportul rutier de călători în scop turistic."
+ },
+ {
+  "rev2": "4939",
+  "rev3": "4932",
+  "note": "Transportul ocazional de călători, urban/suburban sau la mare distanță, cu autovehicule cu și de peste 10 locuri. Acesta poate include transportul cu autocare, autobuze, troleibuze și microbuze."
+ },
+ {
+  "rev2": "4939",
+  "rev3": "4934",
+  "note": "Operarea telefericelor, funicularelor, a tele-ski-urilor și telecabinelor, dacă nu fac parte din sisteme de tranzit urbane sau suburbane."
+ },
+ {
+  "rev2": "4939",
+  "rev3": "4939",
+  "note": "Servicii de taxi cu biciclete. Transportul de pasageri cu vehicule cu tracțiune animală sau umană."
+ },
+ {
+  "rev2": "4941",
+  "rev3": "4941",
+  "note": "= (excluzând manipulare a mărfii, pe amplasamente industriale, cu echipamente de transport ce nu pot circula pe drumurile publice)"
+ },
+ {
+  "rev2": "4941",
+  "rev3": "5224",
+  "note": "Servicii de manipulare a mărfii, pe amplasamente industriale, cu echipamente de transport ce nu pot circula pe drumurile publice."
+ },
+ {
+  "rev2": "4942",
+  "rev3": "4942",
+  "note": ""
+ },
+ {
+  "rev2": "4950",
+  "rev3": "4950",
+  "note": ""
+ },
+ {
+  "rev2": "5010",
+  "rev3": "5010",
+  "note": ""
+ },
+ {
+  "rev2": "5020",
+  "rev3": "5020",
+  "note": ""
+ },
+ {
+  "rev2": "5030",
+  "rev3": "5030",
+  "note": ""
+ },
+ {
+  "rev2": "5040",
+  "rev3": "5040",
+  "note": ""
+ },
+ {
+  "rev2": "5110",
+  "rev3": "5110",
+  "note": ""
+ },
+ {
+  "rev2": "5121",
+  "rev3": "5121",
+  "note": ""
+ },
+ {
+  "rev2": "5122",
+  "rev3": "5122",
+  "note": ""
+ },
+ {
+  "rev2": "5210",
+  "rev3": "3524",
+  "note": "Stocarea combustibililor gazoși, ca parte a serviciilor de furnizare. Stocarea hidrogenului, ca parte a serviciilor de furnizare."
+ },
+ {
+  "rev2": "5210",
+  "rev3": "5210",
+  "note": "= (excluzând stocarea combustibililor gazoși și a hidrogenului, ca parte a serviciilor de furnizare; stocarea datelor)"
+ },
+ {
+  "rev2": "5210",
+  "rev3": "6310",
+  "note": "Servicii de stocare a datelor."
+ },
+ {
+  "rev2": "5221",
+  "rev3": "5221",
+  "note": ""
+ },
+ {
+  "rev2": "5222",
+  "rev3": "5222",
+  "note": ""
+ },
+ {
+  "rev2": "5223",
+  "rev3": "5223",
+  "note": ""
+ },
+ {
+  "rev2": "5224",
+  "rev3": "5224",
+  "note": ""
+ },
+ {
+  "rev2": "5229",
+  "rev3": "5225",
+  "note": "Expedierea mărfurilor Organizarea expedierilor de marfă individuale sau în grup (inclusiv ridicarea și gruparea mărfurilor). Activități de manipulare a mărfurilor, de exemplu ambalarea temporară în lăzi pentru unicul scop al protejării mărfurilor în timpul tranzitului, despachetarea din lăzi, extragerea de eșantioane, cântărirea mărfurilor. 21 21"
+ },
+ {
+  "rev2": "5229",
+  "rev3": "5226",
+  "note": "Aranjarea sau organizarea operațiunilor de transport multimodal (rutier, maritim, aerian sau pe calea ferată). Procurarea și emiterea documentelor de transport și a documentelor de expediție (scrisori de trăsură). Activități ale agenților vamali. Activități ale agenților implicați în expedierea mărfurilor pe cai maritime și aeriene. Activități ale brokerilor pentru spații pe nave și aeronave."
+ },
+ {
+  "rev2": "5229",
+  "rev3": "5231",
+  "note": "Intermedierea transportului de marfă, prin reunirea clienților și prestatorilor de servicii contra cost sau comision."
+ },
+ {
+  "rev2": "5310",
+  "rev3": "5310",
+  "note": ""
+ },
+ {
+  "rev2": "5320",
+  "rev3": "5320",
+  "note": ""
+ },
+ {
+  "rev2": "5510",
+  "rev3": "5510",
+  "note": ""
+ },
+ {
+  "rev2": "5520",
+  "rev3": "5520",
+  "note": ""
+ },
+ {
+  "rev2": "5530",
+  "rev3": "5530",
+  "note": ""
+ },
+ {
+  "rev2": "5590",
+  "rev3": "5590",
+  "note": ""
+ },
+ {
+  "rev2": "5610",
+  "rev3": "5611",
+  "note": "= (excluzând prepararea și servirea meselor pentru consumul imediat din autovehicule sau cărucioare fără motor)"
+ },
+ {
+  "rev2": "5610",
+  "rev3": "5612",
+  "note": "Activități de preparare și servire a meselor pentru consumul imediat din autovehicule sau cărucioare fără motor."
+ },
+ {
+  "rev2": "5621",
+  "rev3": "5621",
+  "note": ""
+ },
+ {
+  "rev2": "5629",
+  "rev3": "5622",
+  "note": ""
+ },
+ {
+  "rev2": "5630",
+  "rev3": "5630",
+  "note": ""
+ },
+ {
+  "rev2": "5811",
+  "rev3": "5811",
+  "note": ""
+ },
+ {
+  "rev2": "5812",
+  "rev3": "5819",
+  "note": ""
+ },
+ {
+  "rev2": "5813",
+  "rev3": "5812",
+  "note": ""
+ },
+ {
+  "rev2": "5814",
+  "rev3": "5813",
+  "note": ""
+ },
+ {
+  "rev2": "5819",
+  "rev3": "5819",
+  "note": "= (excluzând editarea pe blog-uri)"
+ },
+ {
+  "rev2": "5819",
+  "rev3": "6039",
+  "note": "Activități de editare pe blog-uri."
+ },
+ {
+  "rev2": "5821",
+  "rev3": "5821",
+  "note": ""
+ },
+ {
+  "rev2": "5829",
+  "rev3": "5829",
+  "note": ""
+ },
+ {
+  "rev2": "5911",
+  "rev3": "5911",
+  "note": "= (excluzând servicii de streaming și de descărcare de conținuturi video)"
+ },
+ {
+  "rev2": "5911",
+  "rev3": "6020",
+  "note": "Activități de servicii de streaming și descărcarea de conținuturi video"
+ },
+ {
+  "rev2": "5912",
+  "rev3": "5912",
+  "note": ""
+ },
+ {
+  "rev2": "5913",
+  "rev3": "5913",
+  "note": ""
+ },
+ {
+  "rev2": "5914",
+  "rev3": "5914",
+  "note": ""
+ },
+ {
+  "rev2": "5920",
+  "rev3": "5920",
+  "note": ""
+ },
+ {
+  "rev2": "6010",
+  "rev3": "6010",
+  "note": ""
+ },
+ {
+  "rev2": "6020",
+  "rev3": "6020",
+  "note": ""
+ },
+ {
+  "rev2": "6110",
+  "rev3": "6110",
+  "note": ""
+ },
+ {
+  "rev2": "6120",
+  "rev3": "6110",
+  "note": "= (excluzând transmiterea prin internet a mesajelor text (SMS))"
+ },
+ {
+  "rev2": "6120",
+  "rev3": "6190",
+  "note": "Activități de transmitere prin internet a mesajelor text (SMS)."
+ },
+ {
+  "rev2": "6130",
+  "rev3": "6110",
+  "note": ""
+ },
+ {
+  "rev2": "6190",
+  "rev3": "6110",
+  "note": "Furnizarea de servicii de telefonie IP (Voice Over Internet Protocol - VOIP), de către operatorul infrastructurii"
+ },
+ {
+  "rev2": "6190",
+  "rev3": "6120",
+  "note": "Recomercializarea de servicii de telecomunicații, adică achiziționarea și revânzarea capacității de rețea, inclusiv activitățile brokerilor de telecomunicații și ale revânzătorilor de carduri telefonice preplătite"
+ },
+ {
+  "rev2": "6190",
+  "rev3": "6190",
+  "note": "= (excluzând serviciile de VOIP și recomercializarea de servicii de telecomunicații)"
+ },
+ {
+  "rev2": "6201",
+  "rev3": "6210",
+  "note": ""
+ },
+ {
+  "rev2": "6202",
+  "rev3": "6220",
+  "note": ""
+ },
+ {
+  "rev2": "6209",
+  "rev3": "6290",
+  "note": ""
+ },
+ {
+  "rev2": "6311",
+  "rev3": "6020",
+  "note": "Activități ale site-urilor de streaming pentru jocuri video numai pentru vizionare."
+ },
+ {
+  "rev2": "6311",
+  "rev3": "6039",
+  "note": "Operarea site-urilor de jocuri/jocuri video online, independent de publicarea jocurilor. Furnizarea de cărți electronice ca serviciu de streaming sau de descărcare, care nu este asociată cu publicarea. Furnizarea online de software, care nu este asociat cu publicarea."
+ },
+ {
+  "rev2": "6311",
+  "rev3": "6310",
+  "note": "= (excluzând: 22 22 - activități ale site-urilor de streaming pentru jocuri video numai pentru vizionare; - operarea site-urilor de jocuri/jocuri video. - furnizarea de cărți electronice ca serviciu de streaming sau de descărcare. - furnizarea online de software.)"
+ },
+ {
+  "rev2": "6312",
+  "rev3": "6039",
+  "note": "Activități ale site-urilor de partajare de conținut mediatic, care publică conținut produs și editat de utilizatori și nu se află sub responsabilitatea și controlul editorului."
+ },
+ {
+  "rev2": "6312",
+  "rev3": "6391",
+  "note": "= (excluzând activitățile site-urilor de partajare de conținut mediatic)"
+ },
+ {
+  "rev2": "6391",
+  "rev3": "6031",
+  "note": ""
+ },
+ {
+  "rev2": "6399",
+  "rev3": "6392",
+  "note": ""
+ },
+ {
+  "rev2": "6411",
+  "rev3": "6411",
+  "note": ""
+ },
+ {
+  "rev2": "6419",
+  "rev3": "6419",
+  "note": ""
+ },
+ {
+  "rev2": "6420",
+  "rev3": "6421",
+  "note": "= (excluzând activitățile canalelor de finanțare și ale ale instituțiilor financiare captive implicate în creditarea intra-grup)"
+ },
+ {
+  "rev2": "6420",
+  "rev3": "6422",
+  "note": "Activități ale canalelor de finanțare, de exemplu unități create de un grup financiar sau nefinanciar pentru a strânge sau a împrumuta fonduri (adesea pe piața liberă) și pentru a remite acele fonduri către societatea-mamă sau către o altă entitate din grup. Activități ale instituțiilor financiare captive implicate în creditarea intra-grup."
+ },
+ {
+  "rev2": "6430",
+  "rev3": "6431",
+  "note": "Activități ale fondurilor de investiții deschise, închise și cu portofoliu fix. Activități ale fondurilor de investiții pe piața monetară și non-monetară, adică scheme de investiții colective care strâng fonduri prin emiterea de acțiuni sau unități către public, din care veniturile sunt investite în principal în active financiare (inclusiv active pe termen scurt)"
+ },
+ {
+  "rev2": "6430",
+  "rev3": "6432",
+  "note": "= (excluzând activități ale fondurilor de investiții pe piața monetară și non-monetară)"
+ },
+ {
+  "rev2": "6491",
+  "rev3": "6491",
+  "note": ""
+ },
+ {
+  "rev2": "6492",
+  "rev3": "6492",
+  "note": ""
+ },
+ {
+  "rev2": "6499",
+  "rev3": "6422",
+  "note": "Activități ale canalelor de finanțare ce emit obligațiuni etc. pentru a furniza capital grupurilor de întreprinderi"
+ },
+ {
+  "rev2": "6499",
+  "rev3": "6492",
+  "note": "Activități de factoring."
+ },
+ {
+  "rev2": "6499",
+  "rev3": "6499",
+  "note": "= (excluzând activități ale canalelor de finanțare ce emit obligațiuni etc. pentru a furniza capital grupurilor de întreprinderi și activități de factoring)"
+ },
+ {
+  "rev2": "6511",
+  "rev3": "6511",
+  "note": ""
+ },
+ {
+  "rev2": "6512",
+  "rev3": "6512",
+  "note": ""
+ },
+ {
+  "rev2": "6520",
+  "rev3": "6520",
+  "note": ""
+ },
+ {
+  "rev2": "6530",
+  "rev3": "6530",
+  "note": ""
+ },
+ {
+  "rev2": "6611",
+  "rev3": "6611",
+  "note": ""
+ },
+ {
+  "rev2": "6612",
+  "rev3": "6612",
+  "note": ""
+ },
+ {
+  "rev2": "6619",
+  "rev3": "6619",
+  "note": "= (excluzând serviciile de administrare, depozitare și custodie pe bază de comision sau contract)"
+ },
+ {
+  "rev2": "6619",
+  "rev3": "6630",
+  "note": "Servicii de administrare, depozitare și custodie pe bază de comision sau contract."
+ },
+ {
+  "rev2": "6621",
+  "rev3": "6621",
+  "note": ""
+ },
+ {
+  "rev2": "6622",
+  "rev3": "6622",
+  "note": ""
+ },
+ {
+  "rev2": "6629",
+  "rev3": "6629",
+  "note": ""
+ },
+ {
+  "rev2": "6630",
+  "rev3": "6630",
+  "note": ""
+ },
+ {
+  "rev2": "6810",
+  "rev3": "6811",
+  "note": ""
+ },
+ {
+  "rev2": "6820",
+  "rev3": "5590",
+  "note": "Furnizarea de case şi apartamente, mobilate sau nemobilate, pentru utilizare pe perioade de sub un an."
+ },
+ {
+  "rev2": "6820",
+  "rev3": "6820",
+  "note": "= (excluzând furnizarea de case şi apartamente, mobilate sau nemobilate, pentru utilizare pe perioade de sub un an)"
+ },
+ {
+  "rev2": "6831",
+  "rev3": "6831",
+  "note": "Servicii de intermediere pentru cumpărarea, vânzarea şi închirierea bunurilor imobiliare, pe bază de onorariu (taxă) sau contract"
+ },
+ {
+  "rev2": "6831",
+  "rev3": "6832",
+  "note": "Activități de evaluare pentru bunuri imobiliare. Activități ale agenților care încheie precontracte (angajamente scrise), în vederea realizării unei tranzacții imobiliare Activități de consultanță privind cumpărarea, vânzarea și închirierea bunurilor imobiliare, pe bază de onorariu (taxă) sau contract."
+ },
+ {
+  "rev2": "6832",
+  "rev3": "6832",
+  "note": ""
+ },
+ {
+  "rev2": "6910",
+  "rev3": "6910",
+  "note": ""
+ },
+ {
+  "rev2": "6920",
+  "rev3": "6920",
+  "note": ""
+ },
+ {
+  "rev2": "7010",
+  "rev3": "7010",
+  "note": ""
+ },
+ {
+  "rev2": "7021",
+  "rev3": "7330",
+  "note": "= 23 23"
+ },
+ {
+  "rev2": "7022",
+  "rev3": "7020",
+  "note": ""
+ },
+ {
+  "rev2": "7111",
+  "rev3": "7111",
+  "note": ""
+ },
+ {
+  "rev2": "7112",
+  "rev3": "7112",
+  "note": ""
+ },
+ {
+  "rev2": "7120",
+  "rev3": "7120",
+  "note": ""
+ },
+ {
+  "rev2": "7211",
+  "rev3": "7210",
+  "note": ""
+ },
+ {
+  "rev2": "7220",
+  "rev3": "7220",
+  "note": ""
+ },
+ {
+  "rev2": "7311",
+  "rev3": "7311",
+  "note": ""
+ },
+ {
+  "rev2": "7312",
+  "rev3": "7312",
+  "note": ""
+ },
+ {
+  "rev2": "7320",
+  "rev3": "7320",
+  "note": ""
+ },
+ {
+  "rev2": "7410",
+  "rev3": "7411",
+  "note": "Activități de design privind textilele, îmbrăcămintea, încălțămintea, bijuteriile, mobilă, decorațiuni interioare, articole de modă, ca și alte bunuri personale sau gospodărești. Activități de design industrial, adică crearea și dezvoltarea de planuri și specificații ce optimizează utilizarea, valoarea și aspectul produselor, inclusiv stabilirea/determinarea materialelor, mecanismelor, formelor, culorilor și suprafețelor finisate ale produselor, luând în considerare caracteristicile și nevoile umane, siguranța, precum și preferințele pieței privind producția, distribuția, folosința și întreținerea acestor produse."
+ },
+ {
+  "rev2": "7410",
+  "rev3": "7412",
+  "note": "Activități ale designerilor graficieni. Activități de design grafic al paginilor web. Activități ale designerilor de comunicare. Activități specializate in proiectarea mesajelor si informațiilor, ținând cont de caracteristicile si nevoile oamenilor, obiectivele corporative, atractivitatea pieței si canalul media de diseminare."
+ },
+ {
+  "rev2": "7410",
+  "rev3": "7413",
+  "note": "Activități ale decoratorilor de interior. Activități de design interior, cum ar fi planificarea și proiectarea spațiilor interioare pentru a răspunde nevoilor estetice și funcționale ale oamenilor, concentrându-se în principal pe finisaje, mobilier și palete de culori. Realizarea de desene/planuri pentru amenajări interioare."
+ },
+ {
+  "rev2": "7410",
+  "rev3": "7414",
+  "note": "Servicii de design a ambalajelor. Realizarea de modele tridimensionale. Servicii de design de autor (originale) - aceste produse de proprietate intelectuală sunt în general realizate cu intenția de a vinde sau de a da licență de informații altora."
+ },
+ {
+  "rev2": "7420",
+  "rev3": "1812",
+  "note": "Activități de tipărire a fotografiilor (de pe telefoane mobile, carduri de memorie, USB și alte suporturi electronice)."
+ },
+ {
+  "rev2": "7420",
+  "rev3": "5819",
+  "note": "Activități de auto-publicare a fotografiilor."
+ },
+ {
+  "rev2": "7420",
+  "rev3": "7420",
+  "note": "= (excluzând activitățile de tipărire a fotografiilor (de pe telefoane mobile, carduri de memorie, USB și alte suporturi electronice) și activitățile de auto-publicare a fotografiilor)"
+ },
+ {
+  "rev2": "7430",
+  "rev3": "7430",
+  "note": ""
+ },
+ {
+  "rev2": "7490",
+  "rev3": "7491",
+  "note": "Activități de intermediere și de marketing pentru brevete. Servicii de management pentru drepturile de autor și pentru veniturile lor. Servicii de management a drepturilor de proprietate industrială (brevete, licențe, mărci comerciale, franchize, etc) Activități ale organizațiilor de management al drepturilor colective. Gestionarea drepturilor de proprietate intelectuală, de ex. drepturile de autor și veniturile acestora. Vânzarea, pe cont propriu, de brevete și de proprietăți intelectuale similare."
+ },
+ {
+  "rev2": "7490",
+  "rev3": "7499",
+  "note": "Activități de brokeraj pentru întreprinderi, adică aranjamente pentru cumpărarea și vânzarea de întreprinderi mici și mijlocii, inclusiv a experienței profesionale, dar neincluzând activitățile de brokeraj pentru bunuri imobiliare. Activități de evaluare, altele decât pentru bunuri imobiliare și asigurări (pentru antichități, bijuterii etc.). Activități de auditare a facturilor și a rapoartelor privind mărfurile. Activități de prognoză a vremii. Activități de consultanță în domeniul siguranței ocupaționale și a sănătății la locul de muncă. Activități de consultanță în agronomie. Activități de consultanță în probleme de mediu. Alte activități de consultanță tehnică. Activități de citire a contoarelor (gaze, apă, electricitate). Activități desfășurate de agenți și agenții, în numele unor indivizi, implicând de obicei obținerea de angajamente în filme, producții teatrale sau alte spectacole de divertisment sau atracții sportive și plasarea de cărți, piese de teatru, lucrări de artă, fotografii etc. la edituri, producători etc. Activități de planificare si elaborare de proiecte in domeniul managementului cinegetic Activități de estimare a numărului animalelor de vânat."
+ },
+ {
+  "rev2": "7490",
+  "rev3": "8009",
+  "note": "Activități de consultanță în domeniul securității. 24 24"
+ },
+ {
+  "rev2": "7500",
+  "rev3": "7500",
+  "note": ""
+ },
+ {
+  "rev2": "7711",
+  "rev3": "7711",
+  "note": ""
+ },
+ {
+  "rev2": "7712",
+  "rev3": "7711",
+  "note": "Activități de închiriere și leasing operațional pentru vehicule recreaționale cu masă proprie sub 3,5 tone."
+ },
+ {
+  "rev2": "7712",
+  "rev3": "7712",
+  "note": "= (excluzând închirierea și leasing-ul operațional pentru vehicule recreaționale cu masă proprie sub 3,5 tone)"
+ },
+ {
+  "rev2": "7721",
+  "rev3": "7721",
+  "note": ""
+ },
+ {
+  "rev2": "7729",
+  "rev3": "7722",
+  "note": ""
+ },
+ {
+  "rev2": "7731",
+  "rev3": "7731",
+  "note": ""
+ },
+ {
+  "rev2": "7732",
+  "rev3": "7732",
+  "note": ""
+ },
+ {
+  "rev2": "7733",
+  "rev3": "7733",
+  "note": ""
+ },
+ {
+  "rev2": "7734",
+  "rev3": "7734",
+  "note": ""
+ },
+ {
+  "rev2": "7735",
+  "rev3": "7735",
+  "note": ""
+ },
+ {
+  "rev2": "7739",
+  "rev3": "7711",
+  "note": "Activități de închiriere și leasing operațional de echipament de transport terestru (exclusiv autoturismele), fără șofer: motociclete și autovehicule pentru campare cu masă proprie sub 3,5 tone."
+ },
+ {
+  "rev2": "7739",
+  "rev3": "7712",
+  "note": "Activități de închiriere și leasing operațional de echipament de transport terestru (exclusiv autoturismele), fără șofer: autovehicule pentru campare cu masă proprie peste 3,5 tone."
+ },
+ {
+  "rev2": "7739",
+  "rev3": "7739",
+  "note": "= (excluzând activitățile de închiriere și de leasing operațional de echipament de transport terestru (exclusiv autoturismele), fără șofer: motociclete și autovehicule pentru campare)"
+ },
+ {
+  "rev2": "7740",
+  "rev3": "7740",
+  "note": ""
+ },
+ {
+  "rev2": "7810",
+  "rev3": "7810",
+  "note": ""
+ },
+ {
+  "rev2": "7820",
+  "rev3": "7820",
+  "note": ""
+ },
+ {
+  "rev2": "7911",
+  "rev3": "5232",
+  "note": "Servicii de intermediere a transportului de pasageri, prin reunirea, contra unei taxe sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile de transport de pasageri."
+ },
+ {
+  "rev2": "7911",
+  "rev3": "5540",
+  "note": "Activități de intermediere a tuturor tipurilor de servicii de cazare, prin reunirea, contra unei taxe sau comision, clienților și a furnizorilor de servicii."
+ },
+ {
+  "rev2": "7911",
+  "rev3": "7751",
+  "note": "Servicii de rezervare pentru închirieri de autoturisme."
+ },
+ {
+  "rev2": "7911",
+  "rev3": "7911",
+  "note": "= (excluzând intermedierile pentru transport de pasageri și a serviciilor de cazare, precum și a serviciilor de rezervare pentru închirieri de autoturisme)"
+ },
+ {
+  "rev2": "7912",
+  "rev3": "7912",
+  "note": ""
+ },
+ {
+  "rev2": "7990",
+  "rev3": "5232",
+  "note": "Servicii de intermediere a transportului de pasageri, prin reunirea, contra unei taxe sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile de transport de pasageri."
+ },
+ {
+  "rev2": "7990",
+  "rev3": "5540",
+  "note": "Activități de intermediere a tuturor tipurilor de servicii de cazare, prin reunirea, contra unei taxe sau comision, a clienților și a furnizorilor de servicii."
+ },
+ {
+  "rev2": "7990",
+  "rev3": "5640",
+  "note": "Activități de intermediere a serviciilor de alimentație și de servire a băuturilor prin reunirea, pentru o taxă sau comision, clienților și a furnizorilor de servicii, fără ca intermediarul să furnizeze servicii de alimentație și/sau de servire a băuturilor."
+ },
+ {
+  "rev2": "7990",
+  "rev3": "7751",
+  "note": "Servicii de rezervare pentru închirieri de autoturisme."
+ },
+ {
+  "rev2": "7990",
+  "rev3": "7990",
+  "note": "Servicii de asistență pentru vizitatori: • furnizarea de informații de călătorie vizitatorilor; • activități ale ghizilor turistici. Activități de promovare turistica"
+ },
+ {
+  "rev2": "7990",
+  "rev3": "8240",
+  "note": "Servicii de rezervare de bilete pentru evenimente teatrale, sportive, recreative și distractive."
+ },
+ {
+  "rev2": "8010",
+  "rev3": "8001",
+  "note": ""
+ },
+ {
+  "rev2": "8020",
+  "rev3": "8009",
+  "note": ""
+ },
+ {
+  "rev2": "8030",
+  "rev3": "8001",
+  "note": ""
+ },
+ {
+  "rev2": "8110",
+  "rev3": "8110",
+  "note": ""
+ },
+ {
+  "rev2": "8121",
+  "rev3": "8121",
+  "note": "= (excluzând activitățile de curățenie de case sau apartamente desfășurate combinat cu alte servicii personale precum gătitul sau spălatul)"
+ },
+ {
+  "rev2": "8121",
+  "rev3": "9691",
+  "note": "Activități de curățenie de case sau apartamente dacă se desfășoară combinat cu alte servicii personale precum gătitul sau spălatul."
+ },
+ {
+  "rev2": "8122",
+  "rev3": "8122",
+  "note": ""
+ },
+ {
+  "rev2": "8129",
+  "rev3": "8123",
+  "note": ""
+ },
+ {
+  "rev2": "8130",
+  "rev3": "8130",
+  "note": ""
+ },
+ {
+  "rev2": "8211",
+  "rev3": "8210",
+  "note": "= 25 25"
+ },
+ {
+  "rev2": "8219",
+  "rev3": "1812",
+  "note": "Activități de fotocopiere a documentelor."
+ },
+ {
+  "rev2": "8219",
+  "rev3": "8210",
+  "note": "= (excluzând activitățile de fotocopiere a documentelor)"
+ },
+ {
+  "rev2": "8220",
+  "rev3": "8220",
+  "note": ""
+ },
+ {
+  "rev2": "8230",
+  "rev3": "8230",
+  "note": "= (excluzând activitățile de planificare tehnică, furnizare, montare și operare a echipamentelor audiovizuale și pentru efecte speciale, asociate organizării de expoziții, târguri și congrese)"
+ },
+ {
+  "rev2": "8230",
+  "rev3": "9329",
+  "note": "Activități de planificare tehnică, furnizare, montare și operare a echipamentelor audiovizuale și pentru efecte speciale, asociate organizării de expoziții, târguri și congrese."
+ },
+ {
+  "rev2": "8291",
+  "rev3": "8291",
+  "note": ""
+ },
+ {
+  "rev2": "8292",
+  "rev3": "8292",
+  "note": ""
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4360",
+  "note": "Activități de intermediere pentru servicii specializate de construcții prin reunirea, contra unei taxe sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile de construcții specializate."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4611",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4612",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4613",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4614",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4615",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4616",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4617",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4618",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4619",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4791",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "4792",
+  "note": "Activități ale licitatorilor independenți."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "5231",
+  "note": "Activități de intermediere a transportului de marfă, prin reunirea clienților și prestatorilor de servicii, contra cost sau comision."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "5232",
+  "note": "Servicii de intermediere a transportului de pasageri, prin reunirea, contra unei taxe sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile de transport de pasageri."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "5330",
+  "note": "Servicii de intermediere pentru activități poștale și de curierat, prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze servicii poștale sau de curierat."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "5540",
+  "note": "Activități de intermediere a tuturor tipurilor de servicii de cazare, prin reunirea, contra unei taxe sau comision, a clienților și a furnizorilor de servicii."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "5640",
+  "note": "Activități de intermediere a serviciilor de alimentație și de servire a băuturilor prin reunirea, pentru o taxă sau comision, clienților și a furnizorilor de servicii, fără ca intermediarul să furnizeze servicii de alimentație și/sau de servire a băuturilor."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "6120",
+  "note": "Recomercializarea de servicii de telecomunicații, adică achiziționarea și revânzarea capacității de rețea, inclusiv activitățile brokerilor de telecomunicații și ale revânzătorilor de carduri telefonice preplătite"
+ },
+ {
+  "rev2": "8299",
+  "rev3": "7751",
+  "note": "Activități de intermediere pentru închirierea și leasingul de autoturisme, autocaravane și remorci rulote, prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze servicii de închiriere sau leasing."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "7752",
+  "note": "Activități de intermediere pentru închirierea și leasingul altor bunuri corporale și bunuri intangibile (exceptând financiare), prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze servicii de închiriere sau leasing."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8240",
+  "note": "Activități de intermediere pentru servicii suport pentru întreprinderi n.c.a., prin reunirea, contra unei taxe sau comision, clienților și prestatorilor de servicii."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8291",
+  "note": "Servicii de repunere în posesie."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8299",
+  "note": "Servicii de organizare de strângere de fonduri pe bază de tarif sau contract. Servicii de înregistrare sau înregistrare stenodactilografică a lucrărilor din tribunale. Servicii publice de stenografie. Servicii de elaborare a codurilor de bare. Servicii de imprimare a codurilor de bare. Servicii de captarea în timp real (adică simultană) în circuit închis a transmisiunilor TV în direct a adunărilor, conferințelor, etc. Servicii de colectare a monedelor din contoarele parcărilor. Activități de obținere a vizei si a permisului de munca. Servicii de asistență la înmatricularea autovehiculelor. Activități de servicii de relocare. Activități de administrare a pachetelor cadou pentru activități de agrement. Activități de emitere si manipulare a voucherelor. 26 26 Servicii de citire a contoarelor de încălzire, apă, gaze și electricitate. Activități de administrare a programelor de fidelitate. Alte activități suport furnizate de obicei întreprinderilor n.c.a."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8561",
+  "note": "Activități de intermedierea pentru cursuri și tutori (îndrumători, profesori) prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile intermediate."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8697",
+  "note": "Activități de intermedierea pentru servicii medicale, stomatologice și pentru alte servicii referitoare la sănătatea umană, prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile intermediate."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "8791",
+  "note": "Activități de intermedierea pentru servicii de îngrijire la domiciliu prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile intermediate."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "9540",
+  "note": "Activități de intermedierea pentru repararea și întreținerea calculatoarelor, a articolelor personale și de uz gospodăresc, a autovehiculelor și motocicletelor, prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile intermediate."
+ },
+ {
+  "rev2": "8299",
+  "rev3": "9640",
+  "note": "Activități de intermedierea pentru servicii personale prin reunirea, contra cost sau comision, clienților și prestatorilor de servicii, fără ca intermediarul să presteze serviciile intermediate."
+ },
+ {
+  "rev2": "8411",
+  "rev3": "8411",
+  "note": ""
+ },
+ {
+  "rev2": "8412",
+  "rev3": "8412",
+  "note": ""
+ },
+ {
+  "rev2": "8413",
+  "rev3": "8413",
+  "note": ""
+ },
+ {
+  "rev2": "8421",
+  "rev3": "8421",
+  "note": ""
+ },
+ {
+  "rev2": "8422",
+  "rev3": "8422",
+  "note": ""
+ },
+ {
+  "rev2": "8423",
+  "rev3": "8423",
+  "note": ""
+ },
+ {
+  "rev2": "8424",
+  "rev3": "8424",
+  "note": ""
+ },
+ {
+  "rev2": "8425",
+  "rev3": "8425",
+  "note": ""
+ },
+ {
+  "rev2": "8430",
+  "rev3": "8430",
+  "note": ""
+ },
+ {
+  "rev2": "8510",
+  "rev3": "8510",
+  "note": "= (excluzând activitățile de îngrijire a copiilor și de asigurare a învățământului elementar)"
+ },
+ {
+  "rev2": "8510",
+  "rev3": "8891",
+  "note": "Activități de îngrijire a copiilor și de asigurare a învățământului elementar (ISCED-P 2011 nivel 01 dezvoltarea educațională timpurie a copiilor ce promovează dezvoltarea cognitivă și socială a copiilor înainte de intrarea în grădiniță)"
+ },
+ {
+  "rev2": "8520",
+  "rev3": "8520",
+  "note": ""
+ },
+ {
+  "rev2": "8531",
+  "rev3": "8531",
+  "note": ""
+ },
+ {
+  "rev2": "8532",
+  "rev3": "8532",
+  "note": ""
+ },
+ {
+  "rev2": "8541",
+  "rev3": "8533",
+  "note": ""
+ },
+ {
+  "rev2": "8542",
+  "rev3": "8540",
+  "note": ""
+ },
+ {
+  "rev2": "8551",
+  "rev3": "8551",
+  "note": "= (excluzând activitățile studiourilor de yoga, pilates și Tai Chi)"
+ },
+ {
+  "rev2": "8551",
+  "rev3": "9313",
+  "note": "Activități ale studiourilor de yoga, pilates și Tai Chi."
+ },
+ {
+  "rev2": "8552",
+  "rev3": "8552",
+  "note": ""
+ },
+ {
+  "rev2": "8553",
+  "rev3": "8553",
+  "note": ""
+ },
+ {
+  "rev2": "8559",
+  "rev3": "8559",
+  "note": ""
+ },
+ {
+  "rev2": "8560",
+  "rev3": "8569",
+  "note": ""
+ },
+ {
+  "rev2": "8610",
+  "rev3": "8610",
+  "note": ""
+ },
+ {
+  "rev2": "8621",
+  "rev3": "8621",
+  "note": ""
+ },
+ {
+  "rev2": "8622",
+  "rev3": "8622",
+  "note": ""
+ },
+ {
+  "rev2": "8623",
+  "rev3": "8623",
+  "note": ""
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8691",
+  "note": "Activități ale laboratoarelor medicale care furnizează servicii analitice sau de diagnostic (fără analiza sau interpretarea medicală în sine), inclusiv analiza fluidelor corporale sau testarea genetică, direct către pacienții, cu sau fără trimitere de la practicienii din domeniul sănătății, de exemplu: - laboratoare de raze X și alte centre de diagnostic imagistic; - laboratoare de analize de sânge; - secvențierea ADN pentru tratarea unei anumite boli."
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8692",
+  "note": "Activități de transport a pacienților, cu ambulanța, inclusiv avioane."
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8693",
+  "note": "Activități ale psihologilor și psihoterapeuților, persoane autorizate altele decât medici."
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8694",
+  "note": "Activități ale asistentelor medicale independente, care lucrează in cabinetele proprii sau la domiciliul pacienților. Activități ale maternităților, fără supravegherea permanenta a medicilor. Activități ale infirmierilor. Activități de îngrijire paliativă în ambulatoriu."
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8695",
+  "note": "Activități ale fizioterapeuților, persoane autorizate altele decât medici, pentru refacere în urma unor afecțiuni, pentru a îmbunătăți mobilitatea sau a reduce durerea. 27 27"
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8696",
+  "note": "Activități de asistență medicală preventivă, curativă sau de recuperare de către persoane autorizate altele decât medici. Beneficiile pentru sănătate ale acestor servicii nu se bazează pe date științifice pentru diagnosticarea și tratarea bolilor și până în prezent nu au fost evaluate pe deplin astfel încât să poată fi acceptate universal ca fiind bazate pe dovezi."
+ },
+ {
+  "rev2": "8690",
+  "rev3": "8699",
+  "note": "Servicii paramedicale în domeniul optometriei, hidroterapiei, logopediei, podologiei/podologiei etc., furnizate de persoane autorizate altele decât medici"
+ },
+ {
+  "rev2": "8710",
+  "rev3": "8710",
+  "note": ""
+ },
+ {
+  "rev2": "8720",
+  "rev3": "8720",
+  "note": ""
+ },
+ {
+  "rev2": "8730",
+  "rev3": "8730",
+  "note": ""
+ },
+ {
+  "rev2": "8790",
+  "rev3": "8799",
+  "note": ""
+ },
+ {
+  "rev2": "8810",
+  "rev3": "8810",
+  "note": ""
+ },
+ {
+  "rev2": "8891",
+  "rev3": "8891",
+  "note": ""
+ },
+ {
+  "rev2": "8899",
+  "rev3": "8899",
+  "note": ""
+ },
+ {
+  "rev2": "9001",
+  "rev3": "9020",
+  "note": ""
+ },
+ {
+  "rev2": "9002",
+  "rev3": "9039",
+  "note": ""
+ },
+ {
+  "rev2": "9003",
+  "rev3": "5811",
+  "note": "Activități ale scriitorilor individuali care își publică propriile creații."
+ },
+ {
+  "rev2": "9003",
+  "rev3": "5812",
+  "note": "Activități ale scriitorilor individuali care își publică singuri propriile creații."
+ },
+ {
+  "rev2": "9003",
+  "rev3": "5813",
+  "note": "Activitățile jurnaliștilor care își publică singuri conținutul creat"
+ },
+ {
+  "rev2": "9003",
+  "rev3": "9011",
+  "note": "Activități ale scriitorilor individuali, pentru toate subiectele, inclusiv lucrările de ficțiune și tehnice. Activități de compoziție muzicală. Activități de creare de texte și compoziții scrise în numele altcuiva. Activități de activități de scriere de scenarii. Activități ale jurnaliștilor, a căror conținuturi sunt publicate de către terți. Activități ale bloggerilor, a căror conținuturi sunt publicate de către terți."
+ },
+ {
+  "rev2": "9003",
+  "rev3": "9012",
+  "note": "Activități ale artiștilor independenți, de ex. sculptori, pictori, caricaturiști, gravori. Activități de creație de artă vizuală în format digital. Activități de creație artistică cu instalații luminoase"
+ },
+ {
+  "rev2": "9003",
+  "rev3": "9013",
+  "note": "Activități de creație coregrafică"
+ },
+ {
+  "rev2": "9003",
+  "rev3": "9130",
+  "note": "Activități de conservare și restaurare a operelor de artă și a obiectelor din colecțiile muzeale, din orice material și indiferent dacă bunurile sunt mobile sau staționare."
+ },
+ {
+  "rev2": "9004",
+  "rev3": "9031",
+  "note": ""
+ },
+ {
+  "rev2": "9101",
+  "rev3": "9111",
+  "note": "Activități ale bibliotecilor de orice fel (inclusiv biblioteci digitale). Servicii de organizare și catalogare a colecțiilor, de specialitate sau nu. Servicii de împrumut și depozitare de cărți, hărți, periodice, filme, discuri, casete, opere de artă etc."
+ },
+ {
+  "rev2": "9101",
+  "rev3": "9112",
+  "note": "Activitățile ale arhivelor de toate tipurile - construirea, stocarea, clasificarea lucrărilor, fizică sau digitală - care furnizează servicii publicului larg sau către o anumită categorie de utilizatori. Activități ale arhivelor guvernamentale."
+ },
+ {
+  "rev2": "9102",
+  "rev3": "9121",
+  "note": ""
+ },
+ {
+  "rev2": "9103",
+  "rev3": "9122",
+  "note": ""
+ },
+ {
+  "rev2": "9104",
+  "rev3": "9141",
+  "note": "Activități ale grădinilor botanice și zoologice, inclusiv a grădinilor zoologice pentru copii. Servicii ale acvariilor publice."
+ },
+ {
+  "rev2": "9104",
+  "rev3": "9142",
+  "note": "Activități ale rezervațiilor naturale, inclusiv activități de protecție a vieţii sălbatice, etc. Servicii de conservare și întreținere a parcurilor naționale, parcurilor naturale și rezervațiilor."
+ },
+ {
+  "rev2": "9200",
+  "rev3": "9200",
+  "note": ""
+ },
+ {
+  "rev2": "9311",
+  "rev3": "9311",
+  "note": "= (excluzând organizarea de evenimente sportive - în aer liber sau în sală, pentru profesioniști sau amatori - de către cluburile sportive)"
+ },
+ {
+  "rev2": "9311",
+  "rev3": "9312",
+  "note": "Activități de organizare de evenimente sportive - în aer liber sau în sală, pentru profesioniști sau amatori - de către cluburile sportive."
+ },
+ {
+  "rev2": "9312",
+  "rev3": "9312",
+  "note": ""
+ },
+ {
+  "rev2": "9313",
+  "rev3": "9313",
+  "note": ""
+ },
+ {
+  "rev2": "9319",
+  "rev3": "9319",
+  "note": "= (excluzând activitățile de planificare tehnică, furnizare, montare și operare a echipamentelor audiovizuale și pentru efecte speciale, asociate organizării de evenimente sportive)"
+ },
+ {
+  "rev2": "9319",
+  "rev3": "9329",
+  "note": "Activități de planificare tehnică, furnizare, montare și operare a echipamentelor audiovizuale și pentru efecte speciale, asociate organizării de evenimente sportive."
+ },
+ {
+  "rev2": "9321",
+  "rev3": "9321",
+  "note": "= (excluzând activitățile de organizare de curse mecanice, jocuri și spectacole, de către întreprinzători independenți)"
+ },
+ {
+  "rev2": "9321",
+  "rev3": "9329",
+  "note": "Activități de organizare de curse mecanice, jocuri și spectacole, de către întreprinzători independenți."
+ },
+ {
+  "rev2": "9329",
+  "rev3": "8425",
+  "note": "Activitățile ale supraveghetorilor de plajă, adică salvamarii. 28 28"
+ },
+ {
+  "rev2": "9329",
+  "rev3": "9311",
+  "note": "Activități de exploatarea zonelor sportive, care pot include exploatarea telecabinelor, teleschiurilor și telescaunelor."
+ },
+ {
+  "rev2": "9329",
+  "rev3": "9312",
+  "note": "Activități ale cluburilor de e-sport (sporturi electronice - a practica la un nivel competițional și profesionist jocuri pe calculator."
+ },
+ {
+  "rev2": "9329",
+  "rev3": "9319",
+  "note": "Activități ale participanților individuali, pe cont propriu, la e-sporturi."
+ },
+ {
+  "rev2": "9329",
+  "rev3": "9329",
+  "note": "= (excluzând: activități ale supraveghetorilor de plajă, activități de exploatarea zonelor sportive, activități ale cluburilor de e-sport și activități ale participanților individuali, pe cont propriu, la e-sporturi)"
+ },
+ {
+  "rev2": "9411",
+  "rev3": "9411",
+  "note": ""
+ },
+ {
+  "rev2": "9412",
+  "rev3": "9412",
+  "note": ""
+ },
+ {
+  "rev2": "9420",
+  "rev3": "9420",
+  "note": ""
+ },
+ {
+  "rev2": "9491",
+  "rev3": "9491",
+  "note": ""
+ },
+ {
+  "rev2": "9492",
+  "rev3": "9492",
+  "note": ""
+ },
+ {
+  "rev2": "9499",
+  "rev3": "9499",
+  "note": ""
+ },
+ {
+  "rev2": "9511",
+  "rev3": "9510",
+  "note": ""
+ },
+ {
+  "rev2": "9521",
+  "rev3": "9521",
+  "note": ""
+ },
+ {
+  "rev2": "9522",
+  "rev3": "9522",
+  "note": ""
+ },
+ {
+  "rev2": "9523",
+  "rev3": "9523",
+  "note": ""
+ },
+ {
+  "rev2": "9524",
+  "rev3": "9524",
+  "note": ""
+ },
+ {
+  "rev2": "9525",
+  "rev3": "9525",
+  "note": ""
+ },
+ {
+  "rev2": "9529",
+  "rev3": "9529",
+  "note": ""
+ },
+ {
+  "rev2": "9601",
+  "rev3": "5320",
+  "note": "Activități de colectare/livrare a rufelor de către o unitate care nu are ca activitate principală spălarea și curățarea textilelor și a articolelor din blană."
+ },
+ {
+  "rev2": "9601",
+  "rev3": "9610",
+  "note": "Activități de spălare, curățare uscată, călcare etc., a tuturor tipurilor de articole de îmbrăcăminte (inclusiv din blană) și textile, utilizând echipamente mecanice, manuale sau mașini cu auto-servire ce funcționează cu monede, pentru publicul larg sau pentru clienți industriali sau comerciali Activități de şamponare a carpetelor și covoarelor; curățarea draperiilor și a perdelelor, la domiciliul clienților sau nu Activități de curățarea rufăriei, uniformelor de lucru și altor articole similare, de către spălătorii."
+ },
+ {
+  "rev2": "9601",
+  "rev3": "9691",
+  "note": "Activități de spălare și curățare a tuturor tipurilor de îmbrăcăminte și textile la domiciliul, dacă se efectuează combinat cu alte servicii personale precum gătitul sau curățenia în case sau apartamente."
+ },
+ {
+  "rev2": "9602",
+  "rev3": "9621",
+  "note": "Activități de spălare a părului, aranjare și tuns, vopsire, nuanțare, ondulare, îndreptare și activități similare; activități de coafură; bărbierit și aranjarea bărbii."
+ },
+ {
+  "rev2": "9602",
+  "rev3": "9622",
+  "note": "Activități de înfrumusețare, care nu sunt efectuate de specialiști medicali, cum ar fi: masaj facial, manichiură, pedichiură, machiaj permanent, depilare, bronzare, etc."
+ },
+ {
+  "rev2": "9603",
+  "rev3": "9630",
+  "note": ""
+ },
+ {
+  "rev2": "9604",
+  "rev3": "9623",
+  "note": ""
+ },
+ {
+  "rev2": "9609",
+  "rev3": "9699",
+  "note": ""
+ },
+ {
+  "rev2": "9700",
+  "rev3": "9700",
+  "note": ""
+ },
+ {
+  "rev2": "9810",
+  "rev3": "9810",
+  "note": ""
+ },
+ {
+  "rev2": "9820",
+  "rev3": "9820",
+  "note": ""
+ },
+ {
+  "rev2": "9900",
+  "rev3": "9900",
+  "note": "= - DETALIERE - AGREGARE - RECODIFICARE 29 29"
+ }
+]

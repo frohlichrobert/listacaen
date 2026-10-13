@@ -19,7 +19,7 @@ export function CopyCode({ code }: { code: string }) {
     <button
       type="button"
       onClick={copy}
-      className="mt-5 inline-flex items-center rounded-full bg-accent px-4 py-1.5 text-sm text-white hover:bg-[#0077ed] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      className="mt-5 inline-flex items-center rounded-full bg-accent px-4 py-1.5 text-sm text-white hover:bg-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     >
       {label}
     </button>

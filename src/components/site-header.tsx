@@ -9,8 +9,8 @@ export function SiteHeader() {
   const isHome = pathname === "/";
 
   return (
-    <header className="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[42rem] flex-wrap items-center gap-3 px-5 py-3">
+    <header className="sticky top-0 z-30 border-b border-line/80 bg-card/85 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-[44rem] flex-wrap items-center gap-3 px-5 py-3">
         <Link
           href="/"
           className="order-1 text-[1.0625rem] font-semibold tracking-[-0.02em] text-ink"

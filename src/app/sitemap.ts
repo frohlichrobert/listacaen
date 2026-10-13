@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { caenNodes, type Level } from "@/lib/caen";
+import { rev2Classes, rev2Path } from "@/lib/rev2";
 import { absoluteUrl, caenPath } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -26,6 +27,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.4,
     },
+    {
+      url: absoluteUrl("/ghid/cum-alegi-codul-caen/"),
+      lastModified: updated,
+      changeFrequency: "yearly",
+      priority: 0.6,
+    },
+    {
+      url: absoluteUrl("/caen-rev2/"),
+      lastModified: updated,
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    ...rev2Classes.map((item) => ({
+      url: absoluteUrl(rev2Path(item.code)),
+      lastModified: updated,
+      changeFrequency: "yearly" as const,
+      priority: 0.5,
+    })),
     ...caenNodes.map((node) => ({
       url: absoluteUrl(caenPath(node.slug)),
       lastModified: updated,

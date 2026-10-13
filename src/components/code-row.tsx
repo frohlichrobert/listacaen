@@ -1,6 +1,15 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import type { CaenNode } from "@/lib/caen";
 import { caenPath } from "@/lib/site";
+
+export function CodeList({ children }: { children: ReactNode }) {
+  return (
+    <ul className="mt-3 overflow-hidden rounded-2xl bg-card shadow-[0_1px_2px_rgba(18,56,36,0.06),0_0_0_1px_rgba(18,56,36,0.08)]">
+      {children}
+    </ul>
+  );
+}
 
 export function CodeRow({
   node,
@@ -10,22 +19,20 @@ export function CodeRow({
   meta?: string;
 }) {
   return (
-    <li>
+    <li className="border-b border-line/80 last:border-b-0">
       <Link
         href={caenPath(node.slug)}
-        className="group grid grid-cols-[3.4rem_minmax(0,1fr)] items-baseline gap-x-3 border-b border-line py-3 hover:bg-accent-soft/80 focus-visible:bg-accent-soft focus-visible:outline-none"
+        className="grid grid-cols-[2.75rem_minmax(0,1fr)] items-baseline gap-x-3 px-4 py-3.5 hover:bg-hover focus-visible:bg-hover focus-visible:outline-none sm:grid-cols-[2.75rem_minmax(0,1fr)_auto]"
       >
-        <span className="text-[15px] font-medium tabular-nums text-ink">
+        <span className="text-[15px] font-medium tabular-nums text-code">
           {node.code}
         </span>
-        <span className="min-w-0">
-          <span className="block leading-snug text-ink group-hover:text-accent">
-            {node.name}
+        <span className="min-w-0 leading-snug text-ink">{node.name}</span>
+        {meta ? (
+          <span className="col-start-2 text-[13px] text-muted sm:col-start-auto sm:text-right">
+            {meta}
           </span>
-          {meta ? (
-            <span className="mt-0.5 block text-sm text-muted">{meta}</span>
-          ) : null}
-        </span>
+        ) : null}
       </Link>
     </li>
   );

@@ -9,9 +9,9 @@ import { absoluteUrl, caenPath, SITE_NAME, SITE_URL } from "@/lib/site";
 import { clip } from "@/lib/text";
 
 export const homeTitle =
-  "Coduri CAEN Rev. 3 — lista completă | listacaen.ro";
+  "Coduri CAEN — Lista CAEN completă (Rev. 3) | listacaen.ro";
 
-export const homeDescription = `Lista completă a codurilor CAEN Rev. 3: ${counts.sections} de secțiuni, ${counts.divisions} de diviziuni, ${counts.groups} de grupe și ${counts.classes} de clase. Caută după cod sau denumire.`;
+export const homeDescription = `Lista CAEN completă: caută orice cod CAEN după cifre sau denumire. ${counts.classes} de coduri CAEN Rev. 3 (clase), în ${counts.groups} de grupe și ${counts.divisions} de diviziuni.`;
 
 function titleName(name: string, max: number) {
   const plain = name.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
@@ -20,10 +20,13 @@ function titleName(name: string, max: number) {
 
 export function titleFor(node: CaenNode) {
   if (node.level === "section") {
-    const prefix = `Secțiunea ${node.code} CAEN — `;
+    const prefix = `Coduri CAEN secțiunea ${node.code} — `;
     return prefix + titleName(node.name, 72 - prefix.length);
   }
-  const prefix = `CAEN ${node.code} — `;
+  const prefix =
+    node.level === "division"
+      ? `Coduri CAEN ${node.code} — `
+      : `Cod CAEN ${node.code} — `;
   return prefix + titleName(node.name, 70 - prefix.length);
 }
 
@@ -93,11 +96,6 @@ export function websiteLd() {
     name: SITE_NAME,
     url: `${SITE_URL}/`,
     inLanguage: "ro-RO",
-    description: homeDescription,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE_URL}/?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
+    description: homeDescription
   };
 }

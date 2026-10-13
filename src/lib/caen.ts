@@ -155,6 +155,15 @@ export function childrenOf(node: CaenNode) {
   });
 }
 
+export function neighborsOf(node: CaenNode) {
+  const same = ordered.filter((item) => item.level === node.level);
+  const index = same.findIndex((item) => item.slug === node.slug);
+  return {
+    prev: index > 0 ? same[index - 1] : undefined,
+    next: index >= 0 && index < same.length - 1 ? same[index + 1] : undefined,
+  };
+}
+
 export function ancestorsOf(node: CaenNode) {
   const trail: CaenNode[] = [];
   let slug = node.parentSlug;
@@ -172,7 +181,7 @@ export function describe(node: CaenNode) {
   if (!section) return node.name;
 
   if (node.level === "section") {
-    return `Secțiunea ${node.code} grupează activitățile „${node.name}”: ${plural(node.divisionCount, "diviziune", "diviziuni")}, ${plural(node.groupCount, "grupă", "grupe")} și ${plural(node.classCount, "clasă", "clase")} CAEN Rev. 3.`;
+    return `Lista codurilor CAEN din secțiunea ${node.code} grupează activitățile „${node.name}”: ${plural(node.divisionCount, "diviziune", "diviziuni")}, ${plural(node.groupCount, "grupă", "grupe")} și ${plural(node.classCount, "clasă", "clase")} CAEN Rev. 3.`;
   }
 
   const division = node.divisionSlug
@@ -180,11 +189,11 @@ export function describe(node: CaenNode) {
     : undefined;
 
   if (node.level === "division") {
-    return `Diviziunea CAEN ${node.code} este „${node.name}”, în secțiunea ${section.code} — ${section.name}. Cuprinde ${plural(node.groupCount, "grupă", "grupe")} și ${plural(node.classCount, "clasă", "clase")}.`;
+    return `Coduri CAEN ${node.code}: diviziunea „${node.name}”, în secțiunea ${section.code} — ${section.name}. Cuprinde ${plural(node.groupCount, "grupă", "grupe")} și ${plural(node.classCount, "clasă", "clase")}.`;
   }
 
   if (node.level === "group" && division) {
-    return `Grupa CAEN ${node.code} este „${node.name}”, în diviziunea ${division.code} — ${division.name}, secțiunea ${section.code}. Conține ${plural(node.classCount, "clasă", "clase")}.`;
+    return `Coduri CAEN ${node.code}: grupa „${node.name}”, în diviziunea ${division.code} — ${division.name}, secțiunea ${section.code}. Conține ${plural(node.classCount, "clasă", "clase")}.`;
   }
 
   const group = node.groupSlug ? bySlug.get(node.groupSlug) : undefined;

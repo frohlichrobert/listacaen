@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PDF-uri sursă INS (se regenerează JSON-ul cu scripts/*-from-pdf.py)
+src/data/*.pdf

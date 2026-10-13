@@ -2,8 +2,17 @@
 
 import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent } from "react";
 import { useRouter } from "next/navigation";
-import { searchCaen, searchContext, type CaenNode } from "@/lib/caen";
+import { searchCaen, searchContext } from "@/lib/caen";
+import { isCodeQuery, searchRev2 } from "@/lib/rev2-search";
 import { caenPath } from "@/lib/site";
+
+type Hit = {
+  key: string;
+  code: string;
+  name: string;
+  context: string;
+  href: string;
+};
 
 export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact" }) {
   const router = useRouter();
@@ -14,10 +23,29 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
   const [active, setActive] = useState(0);
   const limit = variant === "hero" ? 12 : 8;
 
-  const { hits, total } = useMemo(
-    () => searchCaen(query, limit),
-    [query, limit],
-  );
+  const { hits, total } = useMemo(() => {
+    const result = searchCaen(query, limit);
+    const list: Hit[] = result.hits.map((node) => ({
+      key: node.slug,
+      code: node.code,
+      name: node.name,
+      context: searchContext(node),
+      href: caenPath(node.slug),
+    }));
+    // Coduri vechi: la căutări după cifre sau când Rev. 3 nu are nimic.
+    const wantsRev2 = isCodeQuery(query) || result.total === 0;
+    const old = wantsRev2 ? searchRev2(query, 5) : [];
+    for (const item of old) {
+      list.push({
+        key: `rev2-${item.code}`,
+        code: item.code,
+        name: item.name,
+        context: "Cod vechi, CAEN Rev. 2 · vezi echivalentul în Rev. 3",
+        href: `/caen-rev2/${item.code}/`,
+      });
+    }
+    return { hits: list, total: result.total + old.length };
+  }, [query, limit]);
 
   useEffect(() => {
     if (variant !== "hero") return;
@@ -40,9 +68,9 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
     return () => document.removeEventListener("mousedown", onPointerDown);
   }, []);
 
-  function go(node: CaenNode) {
+  function go(hit: Hit) {
     setOpen(false);
-    router.push(caenPath(node.slug));
+    router.push(hit.href);
   }
 
   function onKeyDown(event: KeyboardEvent<HTMLInputElement>) {
@@ -62,7 +90,7 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
   }
 
   const showList = open && query.trim().length > 0;
-  const activeId = hits[active] ? `${listId}-${hits[active].slug}` : undefined;
+  const activeId = hits[active] ? `${listId}-${hits[active].key}` : undefined;
 
   return (
     <div ref={rootRef} className="relative">
@@ -100,10 +128,10 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
           }}
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
-          className={`w-full border border-line bg-card text-ink outline-none placeholder:text-muted/80 focus:border-accent focus:ring-4 focus:ring-accent/15 ${
+          className={`w-full bg-card text-ink shadow-[0_1px_2px_rgba(18,56,36,0.06),0_0_0_1px_rgba(18,56,36,0.1)] outline-none placeholder:text-muted/70 focus:shadow-[0_0_0_4px_rgba(196,83,42,0.18),0_0_0_1px_#c4532a] ${
             variant === "hero"
-              ? "rounded-xl px-4 py-3 text-[17px]"
-              : "rounded-lg px-3.5 py-2 text-[15px]"
+              ? "rounded-2xl px-4 py-3.5 text-[17px]"
+              : "rounded-xl px-3.5 py-2 text-[15px]"
           }`}
         />
       </form>
@@ -114,8 +142,8 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
         <div
           className={
             variant === "compact"
-              ? "absolute z-40 mt-2 w-full overflow-hidden rounded-xl border border-line bg-card shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
-              : "mt-3 overflow-hidden rounded-xl border border-line bg-card"
+              ? "absolute z-40 mt-2 w-full overflow-hidden rounded-2xl bg-card shadow-[0_12px_32px_rgba(18,56,36,0.14),0_0_0_1px_rgba(18,56,36,0.08)]"
+              : "mt-3 overflow-hidden rounded-2xl bg-card shadow-[0_12px_32px_rgba(18,56,36,0.14),0_0_0_1px_rgba(18,56,36,0.08)]"
           }
         >
           {hits.length === 0 ? (
@@ -125,25 +153,25 @@ export function SearchBox({ variant = "compact" }: { variant?: "hero" | "compact
           ) : (
             <ul id={`${listId}-results`} role="listbox" className="py-1">
               {hits.map((hit, index) => (
-                <li key={hit.slug} role="presentation">
+                <li key={hit.key} role="presentation">
                   <button
-                    id={`${listId}-${hit.slug}`}
+                    id={`${listId}-${hit.key}`}
                     type="button"
                     role="option"
                     aria-selected={index === active}
                     onMouseEnter={() => setActive(index)}
                     onClick={() => go(hit)}
-                    className={`grid w-full grid-cols-[3.4rem_minmax(0,1fr)] items-baseline gap-x-3 px-3 py-2.5 text-left ${
-                      index === active ? "bg-accent-soft" : ""
+                    className={`grid w-full grid-cols-[3.4rem_minmax(0,1fr)] items-baseline gap-x-3 px-4 py-3 text-left ${
+                      index === active ? "bg-hover" : ""
                     }`}
                   >
-                    <span className="text-[15px] font-medium tabular-nums text-ink">
+                    <span className="text-[15px] font-medium tabular-nums text-code">
                       {hit.code}
                     </span>
                     <span className="min-w-0">
                       <span className="block leading-snug">{hit.name}</span>
                       <span className="mt-0.5 block text-sm text-muted">
-                        {searchContext(hit)}
+                        {hit.context}
                       </span>
                     </span>
                   </button>
