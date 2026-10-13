@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/components/consent";
 import { caenSections } from "@/lib/caen";
 import { caenPath } from "@/lib/site";
 
@@ -39,6 +40,8 @@ export function SiteFooter() {
           <Link href="/caen-rev2/" className="underline decoration-line underline-offset-2 hover:text-accent">
             Corespondență Rev. 2 – Rev. 3
           </Link>
+          {" · "}
+          <CookieSettingsButton className="underline decoration-line underline-offset-2 hover:text-accent" />
         </p>
       </div>
     </footer>

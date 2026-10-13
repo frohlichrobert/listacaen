@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Consent } from "@/components/consent";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { homeDescription, homeTitle } from "@/lib/seo";
@@ -63,6 +64,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </main>
         <SiteFooter />
+        <Consent />
       </body>
     </html>
   );
