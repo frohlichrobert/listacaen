@@ -32,7 +32,7 @@ function title_for(array $n): string
 
 function description_for(array $n): string
 {
-    return clip(describe($n), 158);
+    return clip(note_blurb($n), 158);
 }
 
 function defined_term_ld(array $n): array
@@ -42,7 +42,7 @@ function defined_term_ld(array $n): array
         '@id' => abs_url(caen_path($n['slug'])) . '#term',
         'name' => $n['name'],
         'termCode' => $n['code'],
-        'description' => describe($n),
+        'description' => note_blurb($n),
         'inDefinedTermSet' => [
             '@type' => 'DefinedTermSet',
             'name' => 'CAEN Rev. 3',

@@ -119,7 +119,7 @@ function site_footer(): string
 
 function code_list(string $items): string
 {
-    return '<ul class="mt-3 overflow-hidden rounded-2xl bg-card ' . CARD . '">' . $items . '</ul>';
+    return '<ul class="lc-index mt-3 overflow-hidden rounded-2xl bg-card ' . CARD . '">' . $items . '</ul>';
 }
 
 function code_row(array $n, ?string $meta = null): string
@@ -141,6 +141,71 @@ function note_row(string $href, string $code, string $name, string $note): strin
         $s .= '<span class="mt-1 block pl-[3.5rem] text-[13px] leading-snug text-muted">Obs. INS: ' . h($note) . '</span>';
     }
     return $s . '</a></li>';
+}
+
+function linkify_codes(string $text): string
+{
+    $parts = preg_split('/#([a-z]|\d{2,4})#/', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
+    if ($parts === false) {
+        return h($text);
+    }
+    $html = '';
+    foreach ($parts as $i => $part) {
+        if ($i % 2 === 0) {
+            $html .= h($part);
+            continue;
+        }
+        $target = node($part);
+        $html .= $target
+            ? '<a href="' . h(caen_path($target['slug'])) . '">' . h($target['code']) . '</a>'
+            : h($part);
+    }
+    return $html;
+}
+
+function note_items(array $nodes): string
+{
+    $html = '<ul class="lc-expl-list">';
+    foreach ($nodes as $node) {
+        $html .= '<li>' . linkify_codes((string) ($node['t'] ?? ''));
+        if (!empty($node['k'])) {
+            $html .= note_items($node['k']);
+        }
+        $html .= '</li>';
+    }
+    return $html . '</ul>';
+}
+
+function explanatory_notes(array $n): string
+{
+    $note = caen_note($n['slug']);
+    if ($note === null) {
+        return '';
+    }
+    $blocks = '';
+    if (!empty($note['lead'])) {
+        $blocks .= '<p class="lc-expl-lead">' . linkify_codes($note['lead']) . '</p>';
+    }
+    foreach ([['includes', 'Include'], ['also', 'Include și'], ['excludes', 'Nu include']] as [$key, $label]) {
+        if (empty($note[$key])) {
+            continue;
+        }
+        $blocks .= '<div class="lc-expl-block"><p class="lc-expl-label">' . $label . '</p>' . note_items($note[$key]) . '</div>';
+    }
+    if (!empty($note['rule'])) {
+        $blocks .= '<p class="lc-expl-rule"><b>Regulă de clasificare. </b>' . linkify_codes($note['rule']) . '</p>';
+    }
+    if ($blocks === '') {
+        return '';
+    }
+    $src = 'https://ec.europa.eu/eurostat/documents/3859598/21633320/KS-GQ-24-007-EN-N.pdf';
+    return '<section class="lc-expl">'
+        . h2('Ce cuprinde')
+        . $blocks
+        . '<p class="lc-expl-src">Note explicative NACE Rev. 2.1, Eurostat, 2025, traduse în română. CAEN Rev. 3 folosește aceleași coduri. '
+        . '<a href="' . h($src) . '" rel="noopener noreferrer">Sursa</a>'
+        . ' este sub licență <a href="https://creativecommons.org/licenses/by/4.0/deed.ro" rel="noopener noreferrer">CC BY 4.0</a>. '
+        . 'Nu înlocuiesc textul din Monitorul Oficial.</p></section>';
 }
 
 function h2(string $text, string $size = '1.25rem'): string

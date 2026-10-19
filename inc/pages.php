@@ -28,17 +28,17 @@ function page_home(): string
         $chips .= '<a class="lc-chip" href="' . caen_path($code) . '"><b>' . $code . '</b>' . h($label) . '</a>';
     }
 
-    $body = '<section class="lc-hero">'
+    $body = '<div class="lc-home"><section class="lc-hero">'
         . '<p class="lc-eyebrow"><i></i>CAEN Rev. 3 · în vigoare din 2025</p>'
         . '<h1 class="lc-title">Coduri CAEN</h1>'
         . '<p class="lc-lead">Lista CAEN completă: toate codurile CAEN Rev. 3, pentru activitățile din economia națională. Caută un cod CAEN sau răsfoiește secțiunile.</p>'
         . '<div class="lc-search-wrap">' . search_box('hero') . '</div>'
         . '<div class="lc-chips"><span>Căutări rapide:</span>' . $chips . '</div>'
         . '</section>'
-        . '<div class="lc-stats">' . $stats . '</div>'
+        . '<div class="lc-stats">' . $stats . '</div></div>'
         . '<h2 class="mt-12 text-[1.375rem] font-semibold tracking-[-0.022em]">Secțiuni</h2>' . code_list($secs)
         . '<section class="mt-14"><h2 class="text-[1.375rem] font-semibold tracking-[-0.022em]">Coduri CAEN căutate frecvent</h2>' . code_list($pop) . '</section>'
-        . '<section class="mt-14 space-y-4 text-[1.0625rem] leading-relaxed text-pretty"><h2 class="text-[1.375rem] font-semibold tracking-[-0.022em]">Ce sunt codurile CAEN</h2>'
+        . '<section class="lc-prose mt-14 space-y-4 text-[1.0625rem] leading-relaxed text-pretty"><h2 class="text-[1.375rem] font-semibold tracking-[-0.022em]">Ce sunt codurile CAEN</h2>'
         . '<p>Codul CAEN (Clasificarea activităților din economia națională) identifică activitatea unei firme, PFA sau întreprinderi individuale. Lista CAEN de pe această pagină urmează versiunea Rev. 3, în vigoare din 1 ianuarie 2025, cu ' . $c['classes'] . ' de coduri CAEN la nivel de clasă (patru cifre).</p>'
         . '<p>Poți căuta un cod CAEN după număr sau după denumire, fără diacritice. Fiecare cod are pagina lui, cu locul în ierarhie și clasele vecine. Pentru explicații vezi <a href="/despre/" class="' . $l . '">ce este codul CAEN</a> sau <a href="/ghid/cum-alegi-codul-caen/" class="' . $l . '">cum alegi codul CAEN potrivit</a>. Dacă ai un cod vechi, găsești echivalentul în <a href="/caen-rev2/" class="' . $l . '">tabelul de corespondență CAEN Rev. 2 – Rev. 3</a>.</p></section>';
 
@@ -89,13 +89,21 @@ function page_code(array $n): string
     }
     $crumbs .= '<li class="flex items-center gap-2" aria-current="page"><span aria-hidden="true">/</span><span class="text-ink">' . h($n['code']) . '</span></li>';
 
-    $b = '<nav aria-label="Traseu"><ol class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">' . $crumbs . '</ol></nav>'
-        . '<p class="mt-8 text-[13px] font-medium text-accent">' . h(LEVEL_LABEL[$n['level']]) . ' · CAEN Rev. 3</p>'
+    $head = '<p class="mt-8 text-[13px] font-medium text-accent">' . h(LEVEL_LABEL[$n['level']]) . ' · CAEN Rev. 3</p>'
         . '<h1 class="mt-2"><span class="block text-[2.75rem] leading-none font-semibold tracking-[-0.04em] tabular-nums text-code">' . h($n['code']) . '</span>'
         . '<span class="mt-3 block text-[1.65rem] leading-[1.15] font-semibold tracking-[-0.025em] text-balance sm:text-[1.85rem]">' . h($n['name']) . '</span></h1>'
         . '<p class="mt-4 max-w-xl text-[17px] leading-relaxed text-pretty text-muted">' . h(describe($n)) . '</p>';
     if ($n['level'] === 'class') {
-        $b .= '<button type="button" data-copy="' . h($n['code']) . '" class="mt-5 inline-flex items-center rounded-full bg-accent px-4 py-1.5 text-sm text-white hover:bg-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Copiază codul</button>';
+        $head .= '<button type="button" data-copy="' . h($n['code']) . '" class="mt-5 inline-flex items-center rounded-full bg-accent px-4 py-1.5 text-sm text-white hover:bg-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Copiază codul</button>';
+    }
+
+    $b = '<nav aria-label="Traseu"><ol class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">' . $crumbs . '</ol></nav>';
+    $rev2 = $n['level'] === 'class' ? rev2_aside($n) : '';
+    if ($rev2 !== '') {
+        $b .= '<div class="lc-codehead"><div class="lc-codehead-main">' . $head . '</div>' . $rev2
+            . '<div class="lc-codehead-notes">' . explanatory_notes($n) . '</div></div>';
+    } else {
+        $b .= $head . explanatory_notes($n);
     }
 
     if ($anc) {
@@ -131,7 +139,7 @@ function page_code(array $n): string
     }
 
     if ($n['level'] === 'class') {
-        $b .= rev2_sources_section($n) . sibling_classes($n);
+        $b .= sibling_classes($n);
     }
     $b .= prev_next($n);
 
@@ -147,19 +155,28 @@ function page_code(array $n): string
     ], $b);
 }
 
-function rev2_sources_section(array $n): string
+function rev2_aside(array $n): string
 {
     $src = sources_of($n['code']);
     if (!$src) {
         return '';
     }
-    $rows = '';
+    $links = '';
     foreach ($src as ['item' => $i, 'note' => $note]) {
-        $rows .= note_row(rev2_path($i['code']), $i['code'], $i['name'], $note);
+        $links .= '<a href="' . h(rev2_path($i['code'])) . '">'
+            . '<span class="lc-rev2-code">' . h($i['code']) . '</span>'
+            . '<span class="lc-rev2-name">' . h($i['name']) . '</span>';
+        if ($note !== '') {
+            $links .= '<span class="lc-rev2-obs">Obs. INS: ' . h($note) . '</span>';
+        }
+        $links .= '</a>';
     }
-    return '<section class="mt-12">' . h2('Cod CAEN Rev. 2 corespondent')
-        . '<p class="mt-2 text-[15px] leading-relaxed text-muted">Codul ' . h($n['code']) . ' din Rev. 3 preia activități din ' . (count($src) === 1 ? 'codul' : 'codurile') . ' CAEN Rev. 2 de mai jos, după tabelul INS.</p>'
-        . '<ul class="mt-3 overflow-hidden rounded-2xl bg-card ' . CARD . '">' . $rows . '</ul></section>';
+    $many = count($src) > 1;
+    return '<aside class="lc-rev2">'
+        . '<p class="lc-rev2-kicker">' . ($many ? 'Corespondenți Rev. 2' : 'Corespondent Rev. 2') . '</p>'
+        . '<p class="lc-rev2-lead">Preia activități din ' . ($many ? 'aceste coduri' : 'acest cod') . ', după tabelul INS.</p>'
+        . $links
+        . '</aside>';
 }
 
 function sibling_classes(array $n): string
@@ -196,7 +213,8 @@ function page_despre(): string
         . "<h2 $h2>Cum cauți</h2>"
         . '<p>Poți căuta după cod, inclusiv un prefix cum este 62, sau după cuvinte din denumire: software, restaurant, construcții. Diacriticele nu sunt obligatorii. Fiecare secțiune, diviziune, grupă și clasă are pagină proprie, cu locul ei în ierarhie.</p>'
         . "<h2 $h2>Ce găsești aici</h2>"
-        . '<p>listacaen.ro listează denumirile și ierarhia din nomenclator, ca să ajungi repede la un cod. Nu înlocuiește textul din Monitorul Oficial și nu alege codul pe care trebuie să îl declari pentru o firmă. Clasificarea oficială este publicată de <a href="https://insse.ro" class="' . $l . '" rel="noopener noreferrer">Institutul Național de Statistică</a>, iar înregistrarea firmelor se face la <a href="https://www.onrc.ro" class="' . $l . '" rel="noopener noreferrer">Oficiul Național al Registrului Comerțului</a>.</p>'
+        . '<p>listacaen.ro listează denumirile și ierarhia din nomenclator, ca să ajungi repede la un cod. Pe fiecare cod găsești și ce activități intră sau nu în el, după notele explicative NACE Rev. 2.1 publicate de Eurostat, traduse în română. CAEN Rev. 3 folosește aceleași coduri.</p>'
+        . '<p>Site-ul nu înlocuiește textul din Monitorul Oficial și nu alege codul pe care trebuie să îl declari pentru o firmă. Clasificarea oficială este publicată de <a href="https://insse.ro" class="' . $l . '" rel="noopener noreferrer">Institutul Național de Statistică</a>, iar înregistrarea firmelor se face la <a href="https://www.onrc.ro" class="' . $l . '" rel="noopener noreferrer">Oficiul Național al Registrului Comerțului</a>.</p>'
         . '</div></article>';
 
     return layout([

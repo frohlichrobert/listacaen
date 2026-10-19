@@ -16,10 +16,38 @@ function fold_text(string $v): string
     return trim(preg_replace('/\s+/', ' ', $v));
 }
 
+function note_bits(array $nodes): array
+{
+    $bits = [];
+    foreach ($nodes as $node) {
+        $bits[] = (string) ($node['t'] ?? '');
+        if (!empty($node['k'])) {
+            $bits = array_merge($bits, note_bits($node['k']));
+        }
+    }
+    return $bits;
+}
+
+function fold_note(string $slug): string
+{
+    $note = caen_note($slug);
+    if ($note === null) {
+        return '';
+    }
+    $bits = [];
+    foreach (['includes', 'also', 'excludes'] as $key) {
+        $bits = array_merge($bits, note_bits($note[$key] ?? []));
+    }
+    $folded = fold_text(implode(' ', $bits));
+    $stop = array_flip(explode(' ', 'aceasta acest aceste clasa include inclusiv inclus activitati activitatea activitate alte altor pentru care sunt este din sau prin mai'));
+    $words = array_filter(explode(' ', $folded), fn ($w) => strlen($w) > 2 && !isset($stop[$w]));
+    return implode(' ', $words);
+}
+
 $nodes = [];
 foreach (caen()['ordered'] as $slug) {
     $n = node($slug);
-    $nodes[] = [$n['slug'], $n['code'], $n['name'], $n['level'][0], fold_text($n['name']), search_context($n)];
+    $nodes[] = [$n['slug'], $n['code'], $n['name'], $n['level'][0], fold_text($n['name']), search_context($n), fold_note($slug)];
 }
 $old = [];
 foreach (rev2()['classes'] as $c) {

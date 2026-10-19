@@ -3,3 +3,4 @@
 
 # PDF-urile sursă INS; JSON-urile din data/ se regenerează cu scripts/*-from-pdf.py
 /data-src/
+/scripts/.note-cache.json

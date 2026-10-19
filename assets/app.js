@@ -103,7 +103,7 @@
   function load() {
     if (data) return Promise.resolve(data);
     if (!loading) {
-      loading = fetch("/assets/search.json").then(function (r) { return r.json(); }).then(function (d) {
+      loading = fetch("/assets/search.json?v=7").then(function (r) { return r.json(); }).then(function (d) {
         data = d;
         return d;
       });
@@ -125,7 +125,8 @@
     var numeric = /^\d+$/.test(compact);
     var scored = [];
     nodes.forEach(function (n) {
-      var slug = n[0], f = n[4], score = 0;
+      var slug = n[0], f = n[4], extra = n[6] || "", score = 0;
+      var blob = extra ? f + " " + extra : f;
       if (slug === compact || f === folded) score = 1000;
       else if (numeric && slug.indexOf(compact) === 0) score = 860 - slug.length;
       else if (f.indexOf(folded) === 0) score = 720;
@@ -135,6 +136,8 @@
           return words.some(function (w) { return w.indexOf(t) === 0; });
         });
         score = wordStart ? 640 : 430;
+      } else if (extra && tokens.every(function (t) { return blob.indexOf(t) !== -1 || slug.indexOf(t) === 0; })) {
+        score = 500;
       }
       if (score > 0) scored.push({ n: n, score: score + (BOOST[n[3]] || 0) });
     });

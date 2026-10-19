@@ -7,8 +7,8 @@ declare(strict_types=1);
 const SITE_URL = 'https://listacaen.ro';
 const SITE_NAME = 'listacaen.ro';
 const GA_ID = 'G-X3YVX1G101';
-const LASTMOD = '2026-10-13';
-const ASSET_V = '6'; // crește când schimbi CSS/JS, ca să se reîncarce din cache
+const LASTMOD = '2026-10-18';
+const ASSET_V = '13'; // crește când schimbi CSS/JS, ca să se reîncarce din cache
 
 const LEVEL_LABEL = [
     'section' => 'Secțiune',
@@ -285,6 +285,30 @@ function sources_of(string $rev3): array
         }
     }
     return $out;
+}
+
+/** Note explicative NACE Rev. 2.1, traduse, pe codul CAEN Rev. 3. */
+function caen_notes(): array
+{
+    static $notes = null;
+    if ($notes === null) {
+        $notes = read_json('caen-note.json');
+    }
+    return $notes;
+}
+
+function caen_note(string $slug): ?array
+{
+    return caen_notes()[strtolower(trim($slug))] ?? null;
+}
+
+function note_blurb(array $n): string
+{
+    $lead = trim((string) (caen_note($n['slug'])['lead'] ?? ''));
+    if (mb_strlen($lead) >= 40) {
+        return $lead;
+    }
+    return describe($n);
 }
 
 function target_summary(string $code): string
